@@ -1,0 +1,81 @@
+{% if section.settings.hide_testimonial == false %}
+<section id="section-{{ section.id }}">
+    <div class="container">
+        <div class="row">
+            {%- if section.settings.quote-content != blank -%}
+                <p class="smk-description-small">{{ section.settings.quote-content }}</p>
+            {%- endif -%}   
+            {%- if section.settings.quote-author != blank -%}
+          		<span class="author">{{ section.settings.quote-author }}</span>
+            {%- endif -%}  
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<style>
+  #section-{{ section.id }}{
+  	background: #F2F0E8;
+    position: relative;
+    margin: 150px 0;
+  }
+  #section-{{ section.id }}:before{
+    content: '';
+  	background-image: url({{ 'quote-line-top.svg' | asset_url }});
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    top: -70px;
+  }
+  #section-{{ section.id }}:after{
+    content: '';
+  	background-image: url({{ 'quote-line-bottom.svg' | asset_url }});
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: -70px;
+  }
+  #section-{{ section.id }} .container{
+    background-image: url({{ 'quote-icon.png' | asset_url }});
+    background-repeat: no-repeat;
+	background-position: top left;
+    padding: 15px;
+  }
+  #section-{{ section.id }} .smk-description-small{
+    font-size: 25px !important;
+    line-height: 40px !important;
+    text-align: center !important;
+    font-family: var(--heading-font-family);
+  }
+  #section-{{ section.id }} .author{
+  	display: block;
+    text-align: right;
+    color: #e63c00;
+  }
+</style>
+{% schema %}
+    {
+        "name": "Testimonial quote",
+        "settings": [ 
+            {
+                "type": "text",
+                "id": "quote-author",
+                "label": "Author",
+                "default": "Author"
+            },
+            {
+                "type": "textarea",
+                "id": "quote-content",
+                "label": "Testimonial content",
+                "default": "Testimonial content"
+            },
+			{
+                "type": "checkbox",
+                "id": "hide_testimonial",
+                "label": "Hide section",
+                "default": false
+            }
+
+        ]
+    }
+{% endschema %}

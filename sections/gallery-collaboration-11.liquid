@@ -1,0 +1,67 @@
+<section class="Section" id="section-{{ section.id }}">
+    <div class="container">
+      	<div class="smk-block-title">
+            <h2 class="smk-title">All products</h2>
+        </div>
+        <div class="row owl-carousel owl-theme products-carousel">
+            {% for block in section.blocks %}
+          	{% assign product_item = all_products[block.settings.product-item] %}
+          	<a href="{{ product_item.url }}" class="product-item">
+				 <img src="{{ product_item.images[0] | product_img_url: 'medium' }}" />
+         		 <h3>{{ product_item.title }}</h3>
+          		 <p class="price">{{ product_item.price | money }}</p>
+            </a>  
+
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<style>
+  #section-{{ section.id }}{
+    margin-top: 80px;
+  	margin-bottom: 80px;
+  }
+  .products-carousel .product-item{
+  	text-align: center;
+  }
+  .products-carousel .product-item img{
+  	height: 360px;
+    object-fit: cover;
+  }
+  .products-carousel .product-item h3{
+    color: #000;
+    font-size: 17px;
+  }
+  .products-carousel .product-item .price{
+  	color: #E63C00;
+  }
+</style>
+
+{% schema %}
+    {
+        "name": "Products gallery",
+        "blocks": [
+            {
+                "type": "product",
+                "name": "items-entry",
+				"settings": [
+					{
+						"id": "product-item",
+						"type": "product",
+						"label": "label"
+					}
+				]
+            }
+        ],
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "banner_image",
+                "label": "Image",
+                "info": "1500 x 800px .jpg recommended"
+            }
+        ]
+
+    }
+{% endschema %}

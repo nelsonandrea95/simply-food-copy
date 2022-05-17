@@ -1,0 +1,3524 @@
+{
+  "current": {
+    "heading_color": "#303030",
+    "text_color": "#303030",
+    "text_light_color": "#595959",
+    "link_color": "#000000",
+    "background": "#ffffff",
+    "light_background": "#ffffff",
+    "product_on_sale_color": "#f94c43",
+    "button_background": "#bc412b",
+    "button_text_color": "#ffffff",
+    "header_background": "#ffffff",
+    "header_heading_color": "#303030",
+    "header_light_color": "#595959",
+    "footer_background": "#ffffff",
+    "footer_heading_color": "#303030",
+    "footer_text_color": "#595959",
+    "navigation_background": "#ffffff",
+    "navigation_text_color": "#303030",
+    "newsletter_popup_background": "#ffffff",
+    "newsletter_popup_text_color": "#303030",
+    "secondary_elements_background": "#bc412b",
+    "secondary_elements_text_color": "#303030",
+    "heading_font": "ff_meta_serif_n4",
+    "heading_size": "normal",
+    "uppercase_heading": false,
+    "text_font": "ff_meta_n4",
+    "base_text_font_size": 17,
+    "show_page_transition": true,
+    "show_button_transition": true,
+    "show_image_zooming": true,
+    "show_element_staggering": false,
+    "search_mode": "product,article,page",
+    "product_show_price_on_hover": false,
+    "product_show_secondary_image": true,
+    "product_info_alignment": "center",
+    "product_image_size": "natural",
+    "product_list_horizontal_spacing": "extra_small",
+    "product_list_vertical_spacing": "extra_small",
+    "cart_type": "drawer",
+    "cart_enable_notes": true,
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "",
+    "social_facebook": "https:\/\/www.facebook.com\/simplyfoodbrand",
+    "social_twitter": "",
+    "social_pinterest": "",
+    "social_instagram": "https:\/\/www.instagram.com\/simplyfoodofficial\/?hl=en",
+    "social_vimeo": "",
+    "social_tumblr": "",
+    "social_youtube": "",
+    "social_linkedin": "",
+    "social_snapchat": "",
+    "social_fancy": "",
+    "favicon": "shopify:\/\/shop_images\/apple-touch-icon.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/bun_tuoi_display.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Asset_2.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#a17c5e",
+    "checkout_button_color": "#f35f00",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "main-menu",
+          "secondary_menu": "",
+          "show_social_media": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable_bar": true,
+          "home_page_only": false,
+          "background": "#d74b16",
+          "text_color": "#f7f7f7",
+          "content": "FREE SHIPPING ON ORDERS $54 OR MORE!",
+          "link": "https:\/\/simply-food.com\/products\/hodl-noodle-pack"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "808c0725-20c4-4612-a1d5-3b6410299e5e": {
+            "type": "mega_menu",
+            "disabled": true,
+            "settings": {
+              "navigation_mega_menu": "",
+              "push_1_heading": "Example heading",
+              "push_1_subheading": "Example sub-heading",
+              "push_1_url": "",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading",
+              "push_2_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "808c0725-20c4-4612-a1d5-3b6410299e5e"
+        ],
+        "settings": {
+          "use_sticky_header": false,
+          "logo": "shopify:\/\/shop_images\/simply_food_logo_2x_92129112-3497-47e7-a42c-fdc71f2f154b.png",
+          "logo_max_width": 180,
+          "mobile_logo_max_width": 90,
+          "show_currency_selector": false,
+          "show_locale_selector": false,
+          "navigation_menu": "main-menu",
+          "navigation_style": "inline",
+          "show_icons": false,
+          "enable_transparent_header": true,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": false,
+          "transparent_text_color": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "content": "<p>Quality Food Since 1960<\/p>",
+              "show_social_media": true
+            }
+          },
+          "1600065273743": {
+            "type": "links",
+            "settings": {
+              "menu": "footer-menu"
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "content": "<p>Get 10% off your first purchase with sign up and be the first to know about upcoming products and promotions!<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "1600065273743",
+          "footer-1",
+          "footer-2"
+        ],
+        "settings": {
+          "show_payment_methods": true,
+          "show_currency_selector": false,
+          "show_locale_selector": false
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "3103c18f-1ca0-450b-9ae2-aa57de9e3a84": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Van_Son_Chinese_Sausage_Instagram_Post_1800_x_800_px.png",
+              "apply_overlay": true,
+              "content_position": "middleCenter",
+              "subheading": "Available In 3 Different Flavors! - Pork - Pork and Chicken - Pork and Pepper -",
+              "subtitlesize": "18px",
+              "title": "Try Out Our Newest Product!",
+              "titlesize": "70px",
+              "button_1_text": "TRY NOW!",
+              "button_1_link": "shopify:\/\/products\/pork-chinese-styled-sausages",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
+          "slide-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bun_tuoi_display.jpg",
+              "apply_overlay": true,
+              "content_position": "middleCenter",
+              "subheading": "Discover the authentic taste of Simply Food",
+              "subtitlesize": "24px",
+              "title": "Quality is Our Responsibility",
+              "titlesize": "58px",
+              "button_1_text": "Shop Products",
+              "button_1_link": "shopify:\/\/collections\/produts",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "3103c18f-1ca0-450b-9ae2-aa57de9e3a84",
+          "slide-0"
+        ],
+        "settings": {
+          "show_fullscreen": true,
+          "show_arrow": false,
+          "autoplay": true,
+          "cycle_speed": 5,
+          "text_color": "#ffffff",
+          "button_color": "#ffffff",
+          "button_background": "#bc412b"
+        }
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "featured-collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "feature-items",
+              "title": "Best Sellers",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "featured-collection-0"
+        ],
+        "settings": {
+          "title": "",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          }
+        },
+        "block_order": [
+          "collection-0",
+          "collection-1",
+          "collection-2"
+        ],
+        "settings": {
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "stack_on_mobile": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "title": "Featured product",
+          "show_headings_on_mobile": true,
+          "product": "",
+          "show_vendor": true,
+          "show_sku": false,
+          "show_description": true,
+          "description_below_add_to_cart": false,
+          "selector_mode": "dropdown",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": true
+        }
+      },
+      "timeline": {
+        "type": "timeline",
+        "disabled": true,
+        "blocks": {
+          "item-0": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2000",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          },
+          "item-1": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2001",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          },
+          "item-2": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2002",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "item-0",
+          "item-1",
+          "item-2"
+        ],
+        "settings": {
+          "text_color": "#ffffff"
+        }
+      },
+      "blog-posts": {
+        "type": "blog-posts",
+        "disabled": true,
+        "blocks": {
+          "blog-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "news"
+            }
+          }
+        },
+        "block_order": [
+          "blog-0"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "Featured article",
+          "show_category": false,
+          "button_link": "",
+          "button_text": "View all articles"
+        }
+      },
+      "shop-the-look": {
+        "type": "shop-the-look",
+        "disabled": true,
+        "blocks": {
+          "look-0": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 30,
+              "product_1_vertical_position": 40,
+              "product_2": "",
+              "product_2_horizontal_position": 45,
+              "product_2_vertical_position": 65,
+              "product_3": "",
+              "product_3_horizontal_position": 70,
+              "product_3_vertical_position": 50
+            }
+          },
+          "look-1": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 25,
+              "product_1_vertical_position": 45,
+              "product_2": "",
+              "product_2_horizontal_position": 55,
+              "product_2_vertical_position": 30,
+              "product_3": "",
+              "product_3_horizontal_position": 65,
+              "product_3_vertical_position": 60
+            }
+          }
+        },
+        "block_order": [
+          "look-0",
+          "look-1"
+        ],
+        "settings": {
+          "subheading": "Shop",
+          "title": "Our looks",
+          "show_mobile_product_info": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_info": true,
+          "show_collection_image": true,
+          "apply_overlay": true,
+          "show_color_swatch": false,
+          "show_vendor": false,
+          "collection_image_size": "normal",
+          "show_sort_by": true,
+          "show_layout_switch": true,
+          "toolbar_position": "top",
+          "filter_position": "drawer",
+          "filter_mode": "tag",
+          "show_filter_color_swatch": false,
+          "filter_menu": "",
+          "grid_items_per_page": 16,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "show_section": false,
+          "title": "Recently viewed",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "collection-footer": {
+        "type": "collection-footer",
+        "settings": {
+          "show_section": false,
+          "text_color": "#ffffff",
+          "apply_overlay": true,
+          "title": "Our story",
+          "content": "<p>Add your own custom content to explain your processes...<\/p>"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_share_buttons": true,
+          "show_vendor": true,
+          "show_sku": false,
+          "show_taxes_included": false,
+          "description_below_add_to_cart": false,
+          "selector_mode": "dropdown",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": true,
+          "image_size": "large",
+          "stack_images": true,
+          "show_thumbnails": true,
+          "enable_image_zoom": true,
+          "enable_video_looping": false,
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "reviews_enabled": true,
+          "featured_image_size": "normal"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_product_info": true,
+          "show_vendor": true,
+          "show_color_swatch": false
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": true,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Get on the list!",
+          "content": "<p>Get 10% off your first purchase with sign up and be the first to know about upcoming products and promotions!<\/p>",
+          "show_newsletter": true,
+          "apparition_delay": 5
+        }
+      },
+      "1599597190223": {
+        "type": "text-with-image",
+        "settings": {
+          "subheading": "",
+          "title": "Simply Foods was established in 1960 with the motto, “Quality is our Brand and Responsibility”",
+          "image": "shopify:\/\/shop_images\/sf_rice_noodle_soup.png",
+          "image_position": "left",
+          "content": "<p>We are proud to be one of the largest food manufacturers specializing in premium vegetarian instant ramen and rice products which are both healthy and convenient to use. We also put emphasis on the quality of our spring roll paper, pho noodles, vermicelli and other products, so our customers know they are getting the best.<\/p>",
+          "link_text": "Learn More",
+          "link_url": "shopify:\/\/pages\/about-us"
+        }
+      },
+      "1599597374869": {
+        "type": "text-with-image",
+        "settings": {
+          "subheading": "",
+          "title": "All of the raw materials used to make Simply Food’s pho noodles, spring roll paper, and vermicelli are rigorously tested and guaranteed to meet our high standards before being delivered to consumers.",
+          "image": "shopify:\/\/shop_images\/sf_vietnam_rice_fields.jpg",
+          "image_position": "right",
+          "content": "<p>We select suppliers for our fine vermicelli, spring roll paper, and other vegetarian ramen products who are committed to ensuring food safety, environmental responsibility, the health and social welfare of their workers, and product quality assurance. We take quality seriously and don’t include harmful colorants or additives in our pho, spring roll paper, or fine vermicelli. We carefully select, prepare, pack, and ship our products so they can be enjoyed by consumers all around the world.<\/p>",
+          "link_text": "Read More",
+          "link_url": "shopify:\/\/pages\/process"
+        }
+      },
+      "1599597452324": {
+        "type": "custom-html",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "html": ""
+        }
+      },
+      "1599621611600": {
+        "type": "custom-html",
+        "settings": {
+          "subheading": "",
+          "title": "Simply Food considers quality the most important requirement for our food products. With 60 years of experience in providing the highest standard of vegetarian ramen and rice products, Simply Foods products have gained a loyal following around the world. We have rice paper, pho noodles, fine vermicelli, and more.",
+          "html": ""
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "show_rss": false,
+          "show_tags": true,
+          "show_featured_article": true,
+          "show_category": false
+        }
+      },
+      "shop-now": {
+        "type": "shop-now",
+        "settings": {
+          "show_section": false,
+          "title": "Shop now",
+          "collection": "",
+          "grid_items_count": 6,
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "United States"
+        }
+      },
+      "1600193658370": {
+        "type": "home-recipes",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "title": "Recipes",
+          "image1": "shopify:\/\/shop_images\/recipe_01.png",
+          "content1": "<p>Fresh Vietnamese Spring Rolls<\/p>",
+          "image2": "shopify:\/\/shop_images\/recipe_02.png",
+          "content2": "<p>Traditional Vietnamese Beef Pho<\/p>",
+          "image3": "shopify:\/\/shop_images\/recipe_03.png",
+          "content3": "<p>Spicy Ramen Noodles<\/p>",
+          "image4": "shopify:\/\/shop_images\/recipe_04.png",
+          "content4": "<p>Vietnamese Banh Mi Sandwich<\/p>",
+          "link_text": "VIEW ALL RECIPES",
+          "link_url": "#"
+        }
+      },
+      "1600193658371": {
+        "type": "smk_blocks_index",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "smk_blocks": {
+        "type": "smk_blocks",
+        "blocks": {
+          "1600807190899": {
+            "type": "smk_big_banners",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "process",
+              "top_offset": "none",
+              "fullwidth": true,
+              "big_banners_1_show": true,
+              "big_banners_1_image": "shopify:\/\/shop_images\/process_hero.png",
+              "big_banners_1_image_mobile": "shopify:\/\/shop_images\/sf_process_hero_mobile.jpg",
+              "big_banners_1_use_link": false,
+              "big_banners_1_text1": "",
+              "big_banners_1_text2": "Our Process Begins with<br>\nQuality Ingredients",
+              "big_banners_1_text3": "",
+              "big_banners_1_position": "normal",
+              "big_banners_1_textalign": "center",
+              "big_banners_1_show_button": false,
+              "big_banners_1_button_name": "",
+              "big_banners_1_text_color1": "#ffffff",
+              "big_banners_1_text_color2": "#ffffff",
+              "big_banners_1_text_color3": "#ffffff",
+              "big_banners_1_cbtntext": "#ffffff",
+              "big_banners_1_cbtnbg": "#2879fe",
+              "big_banners_1_btn_custom_styles": "",
+              "big_banners_1_title_font_size": 36,
+              "big_banners_1_title_line_height": 40,
+              "big_banners_1_title_font_weight": 500,
+              "big_banners_1_subtitle_font_size": 38,
+              "big_banners_1_subtitle_line_height": 43,
+              "big_banners_1_subtitle_font_weight": 600,
+              "big_banners_1_description_font_size": 16,
+              "big_banners_1_description_line_height": 22,
+              "big_banners_1_description_font_weight": 300,
+              "big_banners_1_button_font_size": 13,
+              "big_banners_1_button_padding": 10,
+              "big_banners_1_title_font_size_mobile": 14,
+              "big_banners_1_title_line_height_mobile": 12,
+              "big_banners_1_title_font_weight_mobile": 400,
+              "big_banners_1_subtitle_font_size_mobile": 34,
+              "big_banners_1_subtitle_line_height_mobile": 40,
+              "big_banners_1_subtitle_font_weight_mobile": 600,
+              "big_banners_1_description_font_size_mobile": 12,
+              "big_banners_1_description_line_height_mobile": 14,
+              "big_banners_1_description_font_weight_mobile": 400,
+              "big_banners_1_button_font_size_mobile": 12,
+              "big_banners_1_button_padding_mobile": 5,
+              "big_banners_1_use_parallax": true,
+              "big_banners_1_height1": "450",
+              "big_banners_1_height2": "450",
+              "big_banners_1_height3": "450",
+              "big_banners_1_height4": "450",
+              "big_banners_2_show": false,
+              "big_banners_2_use_link": true,
+              "big_banners_2_text1": "SALE",
+              "big_banners_2_text2": "DISCOUNTS<br> UP TO 75% OFF",
+              "big_banners_2_text3": "Last chance to take advantage of our incredible prices!",
+              "big_banners_2_position": "normal",
+              "big_banners_2_textalign": "center",
+              "big_banners_2_show_button": true,
+              "big_banners_2_button_name": "SHOP NOW!",
+              "big_banners_2_text_color1": "#191919",
+              "big_banners_2_text_color2": "#191919",
+              "big_banners_2_text_color3": "#191919",
+              "big_banners_2_cbtntext": "#ffffff",
+              "big_banners_2_cbtnbg": "#2879fe",
+              "big_banners_2_btn_custom_styles": "",
+              "big_banners_2_title_font_size": 36,
+              "big_banners_2_title_line_height": 70,
+              "big_banners_2_title_font_weight": 300,
+              "big_banners_2_subtitle_font_size": 70,
+              "big_banners_2_subtitle_line_height": 70,
+              "big_banners_2_subtitle_font_weight": 600,
+              "big_banners_2_description_font_size": 16,
+              "big_banners_2_description_line_height": 22,
+              "big_banners_2_description_font_weight": 300,
+              "big_banners_2_button_font_size": 13,
+              "big_banners_2_button_padding": 10,
+              "big_banners_2_title_font_size_mobile": 14,
+              "big_banners_2_title_line_height_mobile": 12,
+              "big_banners_2_title_font_weight_mobile": 400,
+              "big_banners_2_subtitle_font_size_mobile": 17,
+              "big_banners_2_subtitle_line_height_mobile": 20,
+              "big_banners_2_subtitle_font_weight_mobile": 600,
+              "big_banners_2_description_font_size_mobile": 12,
+              "big_banners_2_description_line_height_mobile": 14,
+              "big_banners_2_description_font_weight_mobile": 400,
+              "big_banners_2_button_font_size_mobile": 12,
+              "big_banners_2_button_padding_mobile": 5,
+              "big_banners_2_use_parallax": false,
+              "big_banners_2_height1": "650",
+              "big_banners_2_height2": "550",
+              "big_banners_2_height3": "350",
+              "big_banners_2_height4": "250",
+              "big_banners_3_show": false,
+              "big_banners_3_use_link": true,
+              "big_banners_3_text1": "SALE",
+              "big_banners_3_text2": "DISCOUNTS<br> UP TO 75% OFF",
+              "big_banners_3_text3": "Last chance to take advantage of our incredible prices!",
+              "big_banners_3_position": "normal",
+              "big_banners_3_textalign": "center",
+              "big_banners_3_show_button": true,
+              "big_banners_3_button_name": "SHOP NOW!",
+              "big_banners_3_text_color1": "#191919",
+              "big_banners_3_text_color2": "#191919",
+              "big_banners_3_text_color3": "#191919",
+              "big_banners_3_cbtntext": "#ffffff",
+              "big_banners_3_cbtnbg": "#2879fe",
+              "big_banners_3_btn_custom_styles": "",
+              "big_banners_3_title_font_size": 36,
+              "big_banners_3_title_line_height": 70,
+              "big_banners_3_title_font_weight": 300,
+              "big_banners_3_subtitle_font_size": 70,
+              "big_banners_3_subtitle_line_height": 70,
+              "big_banners_3_subtitle_font_weight": 600,
+              "big_banners_3_description_font_size": 16,
+              "big_banners_3_description_line_height": 22,
+              "big_banners_3_description_font_weight": 300,
+              "big_banners_3_button_font_size": 13,
+              "big_banners_3_button_padding": 10,
+              "big_banners_3_title_font_size_mobile": 14,
+              "big_banners_3_title_line_height_mobile": 12,
+              "big_banners_3_title_font_weight_mobile": 400,
+              "big_banners_3_subtitle_font_size_mobile": 17,
+              "big_banners_3_subtitle_line_height_mobile": 20,
+              "big_banners_3_subtitle_font_weight_mobile": 600,
+              "big_banners_3_description_font_size_mobile": 12,
+              "big_banners_3_description_line_height_mobile": 14,
+              "big_banners_3_description_font_weight_mobile": 400,
+              "big_banners_3_button_font_size_mobile": 12,
+              "big_banners_3_button_padding_mobile": 5,
+              "big_banners_3_use_parallax": true,
+              "big_banners_3_height1": "650",
+              "big_banners_3_height2": "550",
+              "big_banners_3_height3": "350",
+              "big_banners_3_height4": "250"
+            }
+          },
+          "1600807876459": {
+            "type": "smk_text_block",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "process",
+              "top_offset": "none",
+              "fullwidth": true,
+              "text1": "Nothing artificial, just real ingredients.",
+              "text2": "",
+              "text3": "As a well-known vegetarian food brand, Simply Food is committed to consumer health, and does not use food coloring, additives, or low quality spices. Our skilled workers are trained on food safety standards to comply with all food safety regulations.",
+              "text1_align": "center",
+              "text2_align": "center",
+              "text3_align": "center",
+              "bg_color": "#f2f0e8",
+              "text1_color": "#191919",
+              "text2_color": "#191919",
+              "text3_color": "#191919",
+              "title_font_size": 36,
+              "title_line_height": 47,
+              "title_font_weight": 500,
+              "subtitle_font_size": 21,
+              "subtitle_line_height": 33,
+              "subtitle_font_weight": 500,
+              "description_font_size": 21,
+              "description_line_height": 36,
+              "description_font_weight": 400,
+              "description_offset": 34,
+              "title_font_size_mobile": 36,
+              "title_line_height_mobile": 44,
+              "title_font_weight_mobile": 500,
+              "subtitle_font_size_mobile": 22,
+              "subtitle_line_height_mobile": 33,
+              "subtitle_font_weight_mobile": 500,
+              "description_font_size_mobile": 21,
+              "description_line_height_mobile": 36,
+              "description_font_weight_mobile": 400,
+              "description_offset_mobile": 33
+            }
+          },
+          "1600940252530": {
+            "type": "smk_text_block",
+            "settings": {
+              "show_section": false,
+              "section_location": "above",
+              "page_handle": "process",
+              "top_offset": "normal",
+              "fullwidth": false,
+              "text1": "Nothing artificial, just real ingredients.",
+              "text2": "",
+              "text3": "",
+              "text1_align": "center",
+              "text2_align": "center",
+              "text3_align": "center",
+              "bg_color": "#ffffff",
+              "text1_color": "#191919",
+              "text2_color": "#303030",
+              "text3_color": "#303030",
+              "title_font_size": 18,
+              "title_line_height": 24,
+              "title_font_weight": 600,
+              "subtitle_font_size": 18,
+              "subtitle_line_height": 24,
+              "subtitle_font_weight": 500,
+              "description_font_size": 18,
+              "description_line_height": 22,
+              "description_font_weight": 400,
+              "description_offset": 0,
+              "title_font_size_mobile": 18,
+              "title_line_height_mobile": 44,
+              "title_font_weight_mobile": 500,
+              "subtitle_font_size_mobile": 18,
+              "subtitle_line_height_mobile": 24,
+              "subtitle_font_weight_mobile": 500,
+              "description_font_size_mobile": 18,
+              "description_line_height_mobile": 22,
+              "description_font_weight_mobile": 400,
+              "description_offset_mobile": 33
+            }
+          },
+          "1600807051286": {
+            "type": "smk_text_plus_image",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "process",
+              "top_offset": "normal",
+              "fullwidth": false,
+              "image": "shopify:\/\/shop_images\/sf_process_grains.jpg",
+              "showimage": true,
+              "text1": "",
+              "text2": "<h3>Carefully Selected Materials <\/h3>\n<p>Our noodles are made from high-quality wheat flour, water, and turmeric extract for yellow color. \n<\/p><p>\n<\/p><p>Spice packages are made from refined salt, refined oil, dried vegetables. None of our products include any harmful colorants or additives.<\/p>\n<h3>Lamination & Cutting<\/h3> \n<p>The mixed dough is transferred to plate rolling equipment by a conveyor system where it is rolled and then cut to the appropriate size.<\/p>\n<h3>Steaming<\/h3>\n<p>Next, the noodles are steamed using high pressure and elevated temperature to prepare them for packaging. <\/p>",
+              "showbtn": false,
+              "showbtn_aslink": false,
+              "underlinebydefault": false,
+              "linkbtnsizetext": "",
+              "linkbtnweighttext": "",
+              "btntext": "",
+              "bg_color": "#191919",
+              "cbtntext": "#ffffff",
+              "bg_color_a": "#ffffff",
+              "cbtntext_a": "#191919",
+              "btn_custom_styles": "",
+              "reverse": true,
+              "reverse_mobile": false,
+              "grid": "6.6",
+              "contentalign": "classnoactions",
+              "textalign": "center",
+              "imagealign": "flex-start",
+              "istretch": false,
+              "textoffset": "",
+              "fontsizetext1": 18,
+              "lineheighttext1": 24,
+              "fontweighttext1": 700,
+              "bottompaddingtext1": 18,
+              "fontsizetext2": 24,
+              "lineheighttext2": 35,
+              "fontweighttext2": 400,
+              "buttonpadding": 20,
+              "fontsizetext1_mobile": 18,
+              "lineheighttext1_mobile": 24,
+              "fontweighttext1_mobile": 700,
+              "bottompaddingtext1_mobile": 18,
+              "fontsizetext2_mobile": 18,
+              "lineheighttext2_mobile": 24,
+              "fontweighttext2_mobile": 400,
+              "buttonpadding_mobile": 20,
+              "colortext1": "#191919",
+              "colortext2": "#777777",
+              "usebgcolor": false,
+              "bgco": "#ffffff",
+              "bgdepad": "80",
+              "bgdepad_2": "80",
+              "bgmopad": "80",
+              "bgmopad_2": "80",
+              "showbgimage_bg": false,
+              "imagealign_bg": "center",
+              "imagesize_bg": "cover",
+              "usemiheight": false,
+              "backgroundminheight3": "450",
+              "backgroundminheight2": "450",
+              "backgroundminheight1": "200"
+            }
+          },
+          "1600808497945": {
+            "type": "smk_text_plus_image",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "process",
+              "top_offset": "normal",
+              "fullwidth": false,
+              "image": "shopify:\/\/shop_images\/sf_process_noodles_factory.jpg",
+              "showimage": true,
+              "text1": "",
+              "text2": "<h3>Cutting and Shaping\n<\/h3>\n<p>After being drained, the noodles are stretched, cut into slices, dried, and then shaped before frying. <\/p>\n<h3>Frying\n<\/h3> \n<p>Frying noodles helps to reduce moisture and shape the noodle before packing. In addition, the frying temperature helps to preserve the noodles and kills any bacteria or microorganisms that may otherwise occur.<\/p>\n<h3>Cooling<\/h3>\n<p>Noodles are cooled quickly using fresh wind taken from the natural environment and filtered by modern equipment .<\/p>",
+              "showbtn": false,
+              "showbtn_aslink": false,
+              "underlinebydefault": true,
+              "linkbtnsizetext": "18",
+              "linkbtnweighttext": "400",
+              "btntext": "SHOP NOW",
+              "bg_color": "#191919",
+              "cbtntext": "#ffffff",
+              "bg_color_a": "#ffffff",
+              "cbtntext_a": "#191919",
+              "btn_custom_styles": "",
+              "reverse": false,
+              "reverse_mobile": false,
+              "grid": "6.6",
+              "contentalign": "classnoactions",
+              "textalign": "center",
+              "imagealign": "flex-start",
+              "istretch": false,
+              "textoffset": "0",
+              "fontsizetext1": 18,
+              "lineheighttext1": 25,
+              "fontweighttext1": 700,
+              "bottompaddingtext1": 18,
+              "fontsizetext2": 24,
+              "lineheighttext2": 35,
+              "fontweighttext2": 400,
+              "buttonpadding": 20,
+              "fontsizetext1_mobile": 18,
+              "lineheighttext1_mobile": 24,
+              "fontweighttext1_mobile": 700,
+              "bottompaddingtext1_mobile": 18,
+              "fontsizetext2_mobile": 24,
+              "lineheighttext2_mobile": 24,
+              "fontweighttext2_mobile": 400,
+              "buttonpadding_mobile": 20,
+              "colortext1": "#191919",
+              "colortext2": "#777777",
+              "usebgcolor": false,
+              "bgco": "#ffffff",
+              "bgdepad": "80",
+              "bgdepad_2": "80",
+              "bgmopad": "80",
+              "bgmopad_2": "80",
+              "showbgimage_bg": false,
+              "imagealign_bg": "center",
+              "imagesize_bg": "cover",
+              "usemiheight": false,
+              "backgroundminheight3": "450",
+              "backgroundminheight2": "450",
+              "backgroundminheight1": "200"
+            }
+          },
+          "1600808581657": {
+            "type": "smk_text_plus_image",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "process",
+              "top_offset": "normal",
+              "fullwidth": false,
+              "image": "shopify:\/\/shop_images\/sf_process_pho_noodles.jpg",
+              "showimage": true,
+              "text1": "",
+              "text2": "<h3>Packing\n<\/h3>\n<p>Noodles are packed and sealed, with expiration dates printed clearly. \n <\/p>\n<h3>Shipping\n<\/h3> \n<p>The freshest, cleanest and most delicious noodle packages are delivered to supermarkets, distributors, and retailers to be enjoyed by consumers around the world. <\/p>",
+              "showbtn": false,
+              "showbtn_aslink": false,
+              "underlinebydefault": true,
+              "linkbtnsizetext": "18",
+              "linkbtnweighttext": "400",
+              "btntext": "SHOP NOW",
+              "bg_color": "#191919",
+              "cbtntext": "#ffffff",
+              "bg_color_a": "#ffffff",
+              "cbtntext_a": "#191919",
+              "btn_custom_styles": "",
+              "reverse": true,
+              "reverse_mobile": false,
+              "grid": "6.6",
+              "contentalign": "classnoactions",
+              "textalign": "center",
+              "imagealign": "flex-start",
+              "istretch": false,
+              "textoffset": "0",
+              "fontsizetext1": 18,
+              "lineheighttext1": 24,
+              "fontweighttext1": 700,
+              "bottompaddingtext1": 25,
+              "fontsizetext2": 18,
+              "lineheighttext2": 24,
+              "fontweighttext2": 400,
+              "buttonpadding": 20,
+              "fontsizetext1_mobile": 18,
+              "lineheighttext1_mobile": 24,
+              "fontweighttext1_mobile": 700,
+              "bottompaddingtext1_mobile": 18,
+              "fontsizetext2_mobile": 18,
+              "lineheighttext2_mobile": 24,
+              "fontweighttext2_mobile": 400,
+              "buttonpadding_mobile": 20,
+              "colortext1": "#191919",
+              "colortext2": "#777777",
+              "usebgcolor": false,
+              "bgco": "#ffffff",
+              "bgdepad": "80",
+              "bgdepad_2": "80",
+              "bgmopad": "80",
+              "bgmopad_2": "80",
+              "showbgimage_bg": false,
+              "imagealign_bg": "center",
+              "imagesize_bg": "cover",
+              "usemiheight": false,
+              "backgroundminheight3": "450",
+              "backgroundminheight2": "450",
+              "backgroundminheight1": "200"
+            }
+          },
+          "1600809111104": {
+            "type": "smk_cta_button",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "process",
+              "top_offset": "normal",
+              "fullwidth": false,
+              "bb": "url",
+              "link": "https:\/\/simply-food.com\/collections\/produts",
+              "s_link": "shopify:\/\/pages\/products",
+              "product": "",
+              "text": "Shop Products",
+              "pos": "center",
+              "u": false,
+              "u_m": true,
+              "bgct": "fill",
+              "bgc": "#bc412b",
+              "bggs": "#ffffff",
+              "bgge": "#eef2f5",
+              "tc": "#ffffff",
+              "bc": "#bc412b",
+              "bgc_h": "#ffffff",
+              "bggs_h": "#eef2f5",
+              "bgge_h": "#ffffff",
+              "tc_h": "#bc412b",
+              "bc_h": "#bc412b",
+              "sbgc": "rgba(0,0,0,0)",
+              "sp": 0,
+              "rc": 5,
+              "bs": 2,
+              "bs_m": 2,
+              "b_s": "solid",
+              "bph": 50,
+              "bpv": 20,
+              "fs": 18,
+              "lh": 18,
+              "fw": 600,
+              "bph_m": 50,
+              "bpv_m": 20,
+              "fs_m": 16,
+              "lh_m": 16,
+              "fw_m": 600
+            }
+          },
+          "1601066642377": {
+            "type": "smk_big_banners",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "about-us",
+              "top_offset": "none",
+              "fullwidth": true,
+              "big_banners_1_show": true,
+              "big_banners_1_image": "shopify:\/\/shop_images\/about_hero.jpg",
+              "big_banners_1_use_link": false,
+              "big_banners_1_text1": "",
+              "big_banners_1_text2": "Simply Food specializes in manufacturing premium instant ramen and rice products",
+              "big_banners_1_text3": "",
+              "big_banners_1_position": "normal",
+              "big_banners_1_textalign": "center",
+              "big_banners_1_show_button": false,
+              "big_banners_1_button_name": "",
+              "big_banners_1_text_color1": "#ffffff",
+              "big_banners_1_text_color2": "#ffffff",
+              "big_banners_1_text_color3": "#191919",
+              "big_banners_1_cbtntext": "#ffffff",
+              "big_banners_1_cbtnbg": "#2879fe",
+              "big_banners_1_btn_custom_styles": "",
+              "big_banners_1_title_font_size": 36,
+              "big_banners_1_title_line_height": 70,
+              "big_banners_1_title_font_weight": 300,
+              "big_banners_1_subtitle_font_size": 36,
+              "big_banners_1_subtitle_line_height": 46,
+              "big_banners_1_subtitle_font_weight": 500,
+              "big_banners_1_description_font_size": 16,
+              "big_banners_1_description_line_height": 22,
+              "big_banners_1_description_font_weight": 300,
+              "big_banners_1_button_font_size": 13,
+              "big_banners_1_button_padding": 10,
+              "big_banners_1_title_font_size_mobile": 14,
+              "big_banners_1_title_line_height_mobile": 12,
+              "big_banners_1_title_font_weight_mobile": 400,
+              "big_banners_1_subtitle_font_size_mobile": 34,
+              "big_banners_1_subtitle_line_height_mobile": 40,
+              "big_banners_1_subtitle_font_weight_mobile": 400,
+              "big_banners_1_description_font_size_mobile": 12,
+              "big_banners_1_description_line_height_mobile": 14,
+              "big_banners_1_description_font_weight_mobile": 400,
+              "big_banners_1_button_font_size_mobile": 12,
+              "big_banners_1_button_padding_mobile": 5,
+              "big_banners_1_use_parallax": true,
+              "big_banners_1_height1": "450",
+              "big_banners_1_height2": "450",
+              "big_banners_1_height3": "450",
+              "big_banners_1_height4": "450",
+              "big_banners_2_show": false,
+              "big_banners_2_use_link": true,
+              "big_banners_2_text1": "SALE",
+              "big_banners_2_text2": "DISCOUNTS<br> UP TO 75% OFF",
+              "big_banners_2_text3": "Last chance to take advantage of our incredible prices!",
+              "big_banners_2_position": "normal",
+              "big_banners_2_textalign": "center",
+              "big_banners_2_show_button": true,
+              "big_banners_2_button_name": "SHOP NOW!",
+              "big_banners_2_text_color1": "#191919",
+              "big_banners_2_text_color2": "#191919",
+              "big_banners_2_text_color3": "#191919",
+              "big_banners_2_cbtntext": "#ffffff",
+              "big_banners_2_cbtnbg": "#2879fe",
+              "big_banners_2_btn_custom_styles": "",
+              "big_banners_2_title_font_size": 36,
+              "big_banners_2_title_line_height": 70,
+              "big_banners_2_title_font_weight": 300,
+              "big_banners_2_subtitle_font_size": 70,
+              "big_banners_2_subtitle_line_height": 70,
+              "big_banners_2_subtitle_font_weight": 600,
+              "big_banners_2_description_font_size": 16,
+              "big_banners_2_description_line_height": 22,
+              "big_banners_2_description_font_weight": 300,
+              "big_banners_2_button_font_size": 13,
+              "big_banners_2_button_padding": 10,
+              "big_banners_2_title_font_size_mobile": 14,
+              "big_banners_2_title_line_height_mobile": 12,
+              "big_banners_2_title_font_weight_mobile": 400,
+              "big_banners_2_subtitle_font_size_mobile": 17,
+              "big_banners_2_subtitle_line_height_mobile": 20,
+              "big_banners_2_subtitle_font_weight_mobile": 600,
+              "big_banners_2_description_font_size_mobile": 12,
+              "big_banners_2_description_line_height_mobile": 14,
+              "big_banners_2_description_font_weight_mobile": 400,
+              "big_banners_2_button_font_size_mobile": 12,
+              "big_banners_2_button_padding_mobile": 5,
+              "big_banners_2_use_parallax": false,
+              "big_banners_2_height1": "650",
+              "big_banners_2_height2": "550",
+              "big_banners_2_height3": "350",
+              "big_banners_2_height4": "250",
+              "big_banners_3_show": false,
+              "big_banners_3_use_link": true,
+              "big_banners_3_text1": "SALE",
+              "big_banners_3_text2": "DISCOUNTS<br> UP TO 75% OFF",
+              "big_banners_3_text3": "Last chance to take advantage of our incredible prices!",
+              "big_banners_3_position": "normal",
+              "big_banners_3_textalign": "center",
+              "big_banners_3_show_button": true,
+              "big_banners_3_button_name": "SHOP NOW!",
+              "big_banners_3_text_color1": "#191919",
+              "big_banners_3_text_color2": "#191919",
+              "big_banners_3_text_color3": "#191919",
+              "big_banners_3_cbtntext": "#ffffff",
+              "big_banners_3_cbtnbg": "#2879fe",
+              "big_banners_3_btn_custom_styles": "",
+              "big_banners_3_title_font_size": 36,
+              "big_banners_3_title_line_height": 70,
+              "big_banners_3_title_font_weight": 300,
+              "big_banners_3_subtitle_font_size": 70,
+              "big_banners_3_subtitle_line_height": 70,
+              "big_banners_3_subtitle_font_weight": 600,
+              "big_banners_3_description_font_size": 16,
+              "big_banners_3_description_line_height": 22,
+              "big_banners_3_description_font_weight": 300,
+              "big_banners_3_button_font_size": 13,
+              "big_banners_3_button_padding": 10,
+              "big_banners_3_title_font_size_mobile": 14,
+              "big_banners_3_title_line_height_mobile": 12,
+              "big_banners_3_title_font_weight_mobile": 400,
+              "big_banners_3_subtitle_font_size_mobile": 17,
+              "big_banners_3_subtitle_line_height_mobile": 20,
+              "big_banners_3_subtitle_font_weight_mobile": 600,
+              "big_banners_3_description_font_size_mobile": 12,
+              "big_banners_3_description_line_height_mobile": 14,
+              "big_banners_3_description_font_weight_mobile": 400,
+              "big_banners_3_button_font_size_mobile": 12,
+              "big_banners_3_button_padding_mobile": 5,
+              "big_banners_3_use_parallax": false,
+              "big_banners_3_height1": "650",
+              "big_banners_3_height2": "550",
+              "big_banners_3_height3": "350",
+              "big_banners_3_height4": "250"
+            }
+          },
+          "1601066878282": {
+            "type": "smk_text_block",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "about-us",
+              "top_offset": "none",
+              "fullwidth": true,
+              "text1": "Our History",
+              "text2": "",
+              "text3": "As a family business established in 1960, Simply Food takes pride in our careful selection of ingredients, our modern and meticulous processing of noodles, and our focus on quality. We are proud to be one of the largest food manufacturers specializing in premium vegetarian instant ramen and rice products, which are both healthy and convenient to use.",
+              "text1_align": "center",
+              "text2_align": "center",
+              "text3_align": "center",
+              "bg_color": "#f2f0e8",
+              "text1_color": "#191919",
+              "text2_color": "#191919",
+              "text3_color": "#191919",
+              "title_font_size": 36,
+              "title_line_height": 44,
+              "title_font_weight": 500,
+              "subtitle_font_size": 21,
+              "subtitle_line_height": 36,
+              "subtitle_font_weight": 500,
+              "description_font_size": 21,
+              "description_line_height": 36,
+              "description_font_weight": 400,
+              "description_offset": 33,
+              "title_font_size_mobile": 36,
+              "title_line_height_mobile": 44,
+              "title_font_weight_mobile": 500,
+              "subtitle_font_size_mobile": 16,
+              "subtitle_line_height_mobile": 24,
+              "subtitle_font_weight_mobile": 500,
+              "description_font_size_mobile": 15,
+              "description_line_height_mobile": 22,
+              "description_font_weight_mobile": 400,
+              "description_offset_mobile": 33
+            }
+          },
+          "1601067062375": {
+            "type": "smk_text_plus_image",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "about-us",
+              "top_offset": "normal",
+              "fullwidth": false,
+              "image": "shopify:\/\/shop_images\/sf_about_egg_noodles_sq.jpg",
+              "showimage": true,
+              "text1": "Our Promise to You",
+              "text2": "As a leading manufacturer of premium rice and noodle products, our focus is on providing the highest quality vegetarian items that are healthy and easy to use. \n\n<ul data-pf-type=\"List\" class=\"sc-pcLhl bMMcvF pf-1f34eeb3 ullilist\" style=\"--text-indent:0px; --line-spacing:32px;\">\n<li data-pf-type=\"List.Item\" class=\"sc-oUnPI iVVzrr pf-455021b8\"><span data-pf-type=\"Text\" class=\"sc-ptSuy fnmilh pf-e18e95a6\"><b>High Quality<\/b><br>\nCarefully selected ingredients<\/span><\/li>\n<li data-pf-type=\"List.Item\" class=\"sc-oUnPI iVVzrr pf-21b8a3b9\"><span data-pf-type=\"Text\" class=\"sc-ptSuy fnmilh pf-91c5b5be\"><b>Healthy<\/b><br>\nNo preservatives or additives<\/span><\/li>\n<li data-pf-type=\"List.Item\" class=\"sc-oUnPI iVVzrr pf-a3b96497\"><span data-pf-type=\"Text\" class=\"sc-ptSuy fnmilh pf-6c1466a5\"><b>Vegetarian<\/b><br>\nPremium vegetarian instant ramen and rice products<\/span><\/li>\n<li data-pf-type=\"List.Item\" class=\"sc-oUnPI iVVzrr pf-64971f34\"><span data-pf-type=\"Text\" class=\"sc-ptSuy fnmilh pf-2ce74550\"><b>Convenient<\/b><br>\nEasy to use without compromising on quality<\/span><\/li>\n<\/ul>",
+              "showbtn": false,
+              "showbtn_aslink": false,
+              "underlinebydefault": true,
+              "linkbtnsizetext": "18",
+              "linkbtnweighttext": "400",
+              "btntext": "SHOP NOW",
+              "bg_color": "#191919",
+              "cbtntext": "#ffffff",
+              "bg_color_a": "#ffffff",
+              "cbtntext_a": "#191919",
+              "btn_custom_styles": "",
+              "reverse": false,
+              "reverse_mobile": false,
+              "grid": "6.6",
+              "contentalign": "classnoactions",
+              "textalign": "center",
+              "imagealign": "flex-start",
+              "istretch": false,
+              "textoffset": "60",
+              "fontsizetext1": 30,
+              "lineheighttext1": 51,
+              "fontweighttext1": 700,
+              "bottompaddingtext1": 25,
+              "fontsizetext2": 18,
+              "lineheighttext2": 35,
+              "fontweighttext2": 400,
+              "buttonpadding": 20,
+              "fontsizetext1_mobile": 20,
+              "lineheighttext1_mobile": 28,
+              "fontweighttext1_mobile": 700,
+              "bottompaddingtext1_mobile": 25,
+              "fontsizetext2_mobile": 16,
+              "lineheighttext2_mobile": 24,
+              "fontweighttext2_mobile": 400,
+              "buttonpadding_mobile": 20,
+              "colortext1": "#191919",
+              "colortext2": "#777777",
+              "usebgcolor": false,
+              "bgco": "#ffffff",
+              "bgdepad": "80",
+              "bgdepad_2": "80",
+              "bgmopad": "80",
+              "bgmopad_2": "80",
+              "showbgimage_bg": false,
+              "imagealign_bg": "center",
+              "imagesize_bg": "cover",
+              "usemiheight": false,
+              "backgroundminheight3": "450",
+              "backgroundminheight2": "450",
+              "backgroundminheight1": "200"
+            }
+          },
+          "1601067438623": {
+            "type": "smk_text_plus_image",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "about-us",
+              "top_offset": "normal",
+              "fullwidth": false,
+              "image": "shopify:\/\/shop_images\/sf_about_pho_noodles.jpg",
+              "showimage": true,
+              "text1": "Quality is our Brand and Responsibility",
+              "text2": "We take our commitment to quality seriously and stand by our products. All of the ingredients we use are carefully inspected and do not contain any harmful colorants or additives. When you buy from Simply Foods, you know you are buying quality.",
+              "showbtn": false,
+              "showbtn_aslink": false,
+              "underlinebydefault": false,
+              "linkbtnsizetext": "18",
+              "linkbtnweighttext": "400",
+              "btntext": "SHOP NOW",
+              "bg_color": "#f2f0e8",
+              "cbtntext": "#ffffff",
+              "bg_color_a": "#f2f0e8",
+              "cbtntext_a": "#191919",
+              "btn_custom_styles": "",
+              "reverse": true,
+              "reverse_mobile": false,
+              "grid": "6.6",
+              "contentalign": "classnoactions",
+              "textalign": "center",
+              "imagealign": "flex-start",
+              "istretch": false,
+              "textoffset": "60",
+              "fontsizetext1": 30,
+              "lineheighttext1": 51,
+              "fontweighttext1": 700,
+              "bottompaddingtext1": 25,
+              "fontsizetext2": 18,
+              "lineheighttext2": 28,
+              "fontweighttext2": 400,
+              "buttonpadding": 20,
+              "fontsizetext1_mobile": 20,
+              "lineheighttext1_mobile": 28,
+              "fontweighttext1_mobile": 700,
+              "bottompaddingtext1_mobile": 25,
+              "fontsizetext2_mobile": 16,
+              "lineheighttext2_mobile": 24,
+              "fontweighttext2_mobile": 400,
+              "buttonpadding_mobile": 20,
+              "colortext1": "#191919",
+              "colortext2": "#777777",
+              "usebgcolor": false,
+              "bgco": "#ffffff",
+              "bgdepad": "80",
+              "bgdepad_2": "80",
+              "bgmopad": "80",
+              "bgmopad_2": "80",
+              "showbgimage_bg": false,
+              "imagealign_bg": "center",
+              "imagesize_bg": "cover",
+              "usemiheight": false,
+              "backgroundminheight3": "450",
+              "backgroundminheight2": "450",
+              "backgroundminheight1": "200"
+            }
+          },
+          "1601067678368": {
+            "type": "smk_text_plus_image",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "about-us",
+              "top_offset": "normal",
+              "fullwidth": false,
+              "image": "shopify:\/\/shop_images\/sf_about_noodle_factory.jpg",
+              "showimage": true,
+              "text1": "Our Certifications",
+              "text2": "Our manufacturing and production facilities adhere to HACCP and ISO standards, and are certified Halal and Kosher.\n<ul class=\"icobtsh\">\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/ISO_badge.svg\"><\/li>\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/halal_badge.svg\"><\/li>\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/kosher_badge.svg\"><\/li>\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/HACCP_badge.svg\"><\/li>\n<\/ul>",
+              "showbtn": false,
+              "showbtn_aslink": false,
+              "underlinebydefault": true,
+              "linkbtnsizetext": "18",
+              "linkbtnweighttext": "400",
+              "btntext": "SHOP NOW",
+              "bg_color": "#191919",
+              "cbtntext": "#ffffff",
+              "bg_color_a": "#ffffff",
+              "cbtntext_a": "#191919",
+              "btn_custom_styles": "",
+              "reverse": false,
+              "reverse_mobile": false,
+              "grid": "6.6",
+              "contentalign": "classnoactions",
+              "textalign": "center",
+              "imagealign": "flex-start",
+              "istretch": false,
+              "textoffset": "60",
+              "fontsizetext1": 32,
+              "lineheighttext1": 51,
+              "fontweighttext1": 700,
+              "bottompaddingtext1": 25,
+              "fontsizetext2": 18,
+              "lineheighttext2": 35,
+              "fontweighttext2": 400,
+              "buttonpadding": 20,
+              "fontsizetext1_mobile": 20,
+              "lineheighttext1_mobile": 28,
+              "fontweighttext1_mobile": 700,
+              "bottompaddingtext1_mobile": 25,
+              "fontsizetext2_mobile": 16,
+              "lineheighttext2_mobile": 24,
+              "fontweighttext2_mobile": 400,
+              "buttonpadding_mobile": 20,
+              "colortext1": "#191919",
+              "colortext2": "#777777",
+              "usebgcolor": false,
+              "bgco": "#ffffff",
+              "bgdepad": "80",
+              "bgdepad_2": "80",
+              "bgmopad": "80",
+              "bgmopad_2": "80",
+              "showbgimage_bg": false,
+              "imagealign_bg": "center",
+              "imagesize_bg": "cover",
+              "usemiheight": false,
+              "backgroundminheight3": "450",
+              "backgroundminheight2": "450",
+              "backgroundminheight1": "200"
+            }
+          },
+          "1601108282487": {
+            "type": "smk_big_banners",
+            "settings": {
+              "show_section": true,
+              "section_location": "above",
+              "page_handle": "recipes",
+              "top_offset": "none",
+              "fullwidth": true,
+              "big_banners_1_show": true,
+              "big_banners_1_image": "shopify:\/\/shop_images\/sf_recipes_hero.jpg",
+              "big_banners_1_image_mobile": "shopify:\/\/shop_images\/sf_recipes_hero_mobile.jpg",
+              "big_banners_1_use_link": true,
+              "big_banners_1_text1": "",
+              "big_banners_1_text2": "Explore Authentic Recipes \nyour whole Family will love",
+              "big_banners_1_text3": "",
+              "big_banners_1_position": "normal",
+              "big_banners_1_textalign": "center",
+              "big_banners_1_show_button": false,
+              "big_banners_1_button_name": "SHOP NOW!",
+              "big_banners_1_text_color1": "#ffffff",
+              "big_banners_1_text_color2": "#ffffff",
+              "big_banners_1_text_color3": "#191919",
+              "big_banners_1_cbtntext": "#ffffff",
+              "big_banners_1_cbtnbg": "#2879fe",
+              "big_banners_1_btn_custom_styles": "",
+              "big_banners_1_title_font_size": 36,
+              "big_banners_1_title_line_height": 70,
+              "big_banners_1_title_font_weight": 300,
+              "big_banners_1_subtitle_font_size": 36,
+              "big_banners_1_subtitle_line_height": 46,
+              "big_banners_1_subtitle_font_weight": 400,
+              "big_banners_1_description_font_size": 16,
+              "big_banners_1_description_line_height": 22,
+              "big_banners_1_description_font_weight": 300,
+              "big_banners_1_button_font_size": 13,
+              "big_banners_1_button_padding": 10,
+              "big_banners_1_title_font_size_mobile": 14,
+              "big_banners_1_title_line_height_mobile": 12,
+              "big_banners_1_title_font_weight_mobile": 400,
+              "big_banners_1_subtitle_font_size_mobile": 17,
+              "big_banners_1_subtitle_line_height_mobile": 20,
+              "big_banners_1_subtitle_font_weight_mobile": 600,
+              "big_banners_1_description_font_size_mobile": 12,
+              "big_banners_1_description_line_height_mobile": 14,
+              "big_banners_1_description_font_weight_mobile": 400,
+              "big_banners_1_button_font_size_mobile": 12,
+              "big_banners_1_button_padding_mobile": 5,
+              "big_banners_1_use_parallax": false,
+              "big_banners_1_height1": "442",
+              "big_banners_1_height2": "550",
+              "big_banners_1_height3": "350",
+              "big_banners_1_height4": "250",
+              "big_banners_2_show": false,
+              "big_banners_2_use_link": true,
+              "big_banners_2_text1": "SALE",
+              "big_banners_2_text2": "DISCOUNTS<br> UP TO 75% OFF",
+              "big_banners_2_text3": "Last chance to take advantage of our incredible prices!",
+              "big_banners_2_position": "normal",
+              "big_banners_2_textalign": "center",
+              "big_banners_2_show_button": true,
+              "big_banners_2_button_name": "SHOP NOW!",
+              "big_banners_2_text_color1": "#191919",
+              "big_banners_2_text_color2": "#191919",
+              "big_banners_2_text_color3": "#191919",
+              "big_banners_2_cbtntext": "#ffffff",
+              "big_banners_2_cbtnbg": "#2879fe",
+              "big_banners_2_btn_custom_styles": "",
+              "big_banners_2_title_font_size": 36,
+              "big_banners_2_title_line_height": 70,
+              "big_banners_2_title_font_weight": 300,
+              "big_banners_2_subtitle_font_size": 70,
+              "big_banners_2_subtitle_line_height": 70,
+              "big_banners_2_subtitle_font_weight": 600,
+              "big_banners_2_description_font_size": 16,
+              "big_banners_2_description_line_height": 22,
+              "big_banners_2_description_font_weight": 300,
+              "big_banners_2_button_font_size": 13,
+              "big_banners_2_button_padding": 10,
+              "big_banners_2_title_font_size_mobile": 14,
+              "big_banners_2_title_line_height_mobile": 12,
+              "big_banners_2_title_font_weight_mobile": 400,
+              "big_banners_2_subtitle_font_size_mobile": 17,
+              "big_banners_2_subtitle_line_height_mobile": 20,
+              "big_banners_2_subtitle_font_weight_mobile": 600,
+              "big_banners_2_description_font_size_mobile": 12,
+              "big_banners_2_description_line_height_mobile": 14,
+              "big_banners_2_description_font_weight_mobile": 400,
+              "big_banners_2_button_font_size_mobile": 12,
+              "big_banners_2_button_padding_mobile": 5,
+              "big_banners_2_use_parallax": false,
+              "big_banners_2_height1": "650",
+              "big_banners_2_height2": "550",
+              "big_banners_2_height3": "350",
+              "big_banners_2_height4": "250",
+              "big_banners_3_show": false,
+              "big_banners_3_use_link": true,
+              "big_banners_3_text1": "SALE",
+              "big_banners_3_text2": "DISCOUNTS<br> UP TO 75% OFF",
+              "big_banners_3_text3": "Last chance to take advantage of our incredible prices!",
+              "big_banners_3_position": "normal",
+              "big_banners_3_textalign": "center",
+              "big_banners_3_show_button": true,
+              "big_banners_3_button_name": "SHOP NOW!",
+              "big_banners_3_text_color1": "#191919",
+              "big_banners_3_text_color2": "#191919",
+              "big_banners_3_text_color3": "#191919",
+              "big_banners_3_cbtntext": "#ffffff",
+              "big_banners_3_cbtnbg": "#2879fe",
+              "big_banners_3_btn_custom_styles": "",
+              "big_banners_3_title_font_size": 36,
+              "big_banners_3_title_line_height": 70,
+              "big_banners_3_title_font_weight": 300,
+              "big_banners_3_subtitle_font_size": 70,
+              "big_banners_3_subtitle_line_height": 70,
+              "big_banners_3_subtitle_font_weight": 600,
+              "big_banners_3_description_font_size": 16,
+              "big_banners_3_description_line_height": 22,
+              "big_banners_3_description_font_weight": 300,
+              "big_banners_3_button_font_size": 13,
+              "big_banners_3_button_padding": 10,
+              "big_banners_3_title_font_size_mobile": 14,
+              "big_banners_3_title_line_height_mobile": 12,
+              "big_banners_3_title_font_weight_mobile": 400,
+              "big_banners_3_subtitle_font_size_mobile": 17,
+              "big_banners_3_subtitle_line_height_mobile": 20,
+              "big_banners_3_subtitle_font_weight_mobile": 600,
+              "big_banners_3_description_font_size_mobile": 12,
+              "big_banners_3_description_line_height_mobile": 14,
+              "big_banners_3_description_font_weight_mobile": 400,
+              "big_banners_3_button_font_size_mobile": 12,
+              "big_banners_3_button_padding_mobile": 5,
+              "big_banners_3_use_parallax": false,
+              "big_banners_3_height1": "650",
+              "big_banners_3_height2": "550",
+              "big_banners_3_height3": "350",
+              "big_banners_3_height4": "250"
+            }
+          }
+        },
+        "block_order": [
+          "1600807190899",
+          "1600807876459",
+          "1600940252530",
+          "1600807051286",
+          "1600808497945",
+          "1600808581657",
+          "1600809111104",
+          "1601066642377",
+          "1601066878282",
+          "1601067062375",
+          "1601067438623",
+          "1601067678368",
+          "1601108282487"
+        ],
+        "settings": {
+        }
+      },
+      "smk_product_blocks": {
+        "type": "smk_product_blocks",
+        "settings": {
+          "show_product_blocks": true
+        }
+      },
+      "smk_collection_blocks": {
+        "type": "smk_collection_blocks",
+        "settings": {
+          "show_collection_blocks": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "collections_to_show": "all",
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "apply_overlay": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "recipes-blogpost": {
+        "type": "recipes-blogpost",
+        "blocks": {
+          "1601117405583": {
+            "type": "blog",
+            "settings": {
+              "blog": "recipes"
+            }
+          }
+        },
+        "block_order": [
+          "1601117405583"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "show_category": false,
+          "banner_image": "shopify:\/\/shop_images\/sf_recipes_hero.jpg",
+          "bannertext_heading": "Explore Authentic Recipes  your whole Family will love",
+          "button_link": "",
+          "button_text": ""
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "ed26b600-2004-42be-8154-3a3a7b783dc2": {
+            "type": "text",
+            "settings": {
+              "title": "Custom field",
+              "use_long_text": false,
+              "is_required": false
+            }
+          },
+          "page-contact-template-0": {
+            "type": "text",
+            "settings": {
+              "title": "Your phone (optional)",
+              "use_long_text": false,
+              "is_required": false
+            }
+          }
+        },
+        "block_order": [
+          "ed26b600-2004-42be-8154-3a3a7b783dc2",
+          "page-contact-template-0"
+        ],
+        "settings": {
+        }
+      },
+      "page-allrecipes": {
+        "type": "page-allrecipes",
+        "blocks": {
+          "1601236319505": {
+            "type": "image",
+            "settings": {
+              "recipe-image": "shopify:\/\/shop_images\/BANHHOI_BINHTAYFOOD02.jpg",
+              "recipe-title": "Fine Rice Vermicelli With Vegan Grilled Pork Sausage and Vegan Roasted Pork Belly",
+              "recipe_link": "shopify:\/\/pages\/fine-rice-vermicelli-with-vegan-grilled-pork-sausage-and-vegan-roasted-pork-belly"
+            }
+          },
+          "1601236295104": {
+            "type": "image",
+            "settings": {
+              "recipe-image": "shopify:\/\/shop_images\/MITRUNG_BINHTAYFOOD02.jpg",
+              "recipe-title": "Dried Egg Noodles With Mushroom Sauce",
+              "recipe_link": "shopify:\/\/pages\/dried-egg-noodles-mixes-with-mushroom-sauce"
+            }
+          },
+          "1605904479990": {
+            "type": "image",
+            "settings": {
+              "recipe-image": "shopify:\/\/shop_images\/PHO_CHIEN_SOT_NAM_CHAY_BINHTAYFOOD_2_2.jpg",
+              "recipe-title": "Deep Fried “PHO” Noodles With Mushroom Sauce",
+              "recipe_link": "shopify:\/\/pages\/deep-fried-pho-with-mushroom-sauce-vegan"
+            }
+          },
+          "1605904562561": {
+            "type": "image",
+            "settings": {
+              "recipe-image": "shopify:\/\/shop_images\/PHOGAO_BINHTAYFOOD02.jpg",
+              "recipe-title": "Title Stir-Fried Vegan “Pho” Noodles With Vegetables this product",
+              "recipe_link": "shopify:\/\/pages\/stir-fried-pho-with-vegetables"
+            }
+          },
+          "1605904612874": {
+            "type": "image",
+            "settings": {
+              "recipe-image": "shopify:\/\/shop_images\/BICUON_CHAY_BINHTAYFOOD_03.jpg",
+              "recipe-title": "Vegan Rice Paper Rolls",
+              "recipe_link": "shopify:\/\/pages\/vegan-rolls"
+            }
+          },
+          "1601236250957": {
+            "type": "image",
+            "settings": {
+              "recipe-image": "shopify:\/\/shop_images\/PHOCHAY_BINHTAYFOOD02_copy.jpg",
+              "recipe-title": "Instant Spicy \"PHO\" Noodles",
+              "recipe_link": "shopify:\/\/pages\/spicy-pho-instant-noodles"
+            }
+          },
+          "1605904692081": {
+            "type": "image",
+            "settings": {
+              "recipe-image": "shopify:\/\/shop_images\/GOICUON_CAUVONG_BINHTAYFOOD_02.jpg",
+              "recipe-title": "Rainbow Rice Paper Rolls",
+              "recipe_link": "shopify:\/\/pages\/rainbow-spring-rolls"
+            }
+          },
+          "1605904893302": {
+            "type": "image",
+            "settings": {
+              "recipe-image": "shopify:\/\/shop_images\/MICHAY_BINHTAYFOOD01.jpg",
+              "recipe-title": "Vegan Ramen Noodles with Vegetable Sauce",
+              "recipe_link": "shopify:\/\/pages\/vegetarian-noodles-with-vegetable-sauce"
+            }
+          },
+          "1605904907993": {
+            "type": "image",
+            "settings": {
+              "recipe-image": "shopify:\/\/shop_images\/HUTIEUBAYCHAY_BINHTAYFOOD_2.jpg",
+              "recipe-title": "Vegan Flying Noodles",
+              "recipe_link": "shopify:\/\/pages\/vegan-flying-noodles"
+            }
+          },
+          "10d57e6c-977a-49ef-a642-6740d71cd60a": {
+            "type": "image",
+            "settings": {
+              "recipe-image": "shopify:\/\/shop_images\/Screen_Shot_2021-07-26_at_1.15_1.png",
+              "recipe-title": "Chinese Stir Fry Egg Noodles",
+              "recipe_link": "https:\/\/simply-food.com\/blogs\/recipes\/delicious-chinese-stir-fry-noodles-with-chef-allen-zhao"
+            }
+          }
+        },
+        "block_order": [
+          "1601236319505",
+          "1601236295104",
+          "1605904479990",
+          "1605904562561",
+          "1605904612874",
+          "1601236250957",
+          "1605904692081",
+          "1605904893302",
+          "1605904907993",
+          "10d57e6c-977a-49ef-a642-6740d71cd60a"
+        ],
+        "settings": {
+          "reheading": "Explore the Great Taste of Simply Food Products in These Delicious, Healthy, and Easy-to-make Recipes!",
+          "banner_image": "shopify:\/\/shop_images\/sf_recipes_hero.jpg"
+        }
+      },
+      "page-recipesingle": {
+        "type": "page-recipesingle",
+        "settings": {
+        }
+      },
+      "section-wholesale": {
+        "type": "section-wholesale",
+        "blocks": {
+          "section-wholesale-0": {
+            "type": "text",
+            "settings": {
+              "title": "Your phone (optional)",
+              "use_long_text": false,
+              "is_required": false
+            }
+          }
+        },
+        "block_order": [
+          "section-wholesale-0"
+        ],
+        "settings": {
+          "img_image": "shopify:\/\/shop_images\/rockman_co_logo.png",
+          "reheading": "Distributed by",
+          "txtreheading": "<p>Rockman Company USA, Inc.<\/p>\n<p>12011 Smith Ave, Santa Fe Springs, CA 90670<\/p>"
+        }
+      },
+      "1604139778287": {
+        "type": "custom-html",
+        "settings": {
+          "subheading": "",
+          "title": "Certifications",
+          "html": "<p>Our manufacturing and production facilities adhere to HACCP<br> and ISO standards, and are certified Halal and Kosher.<\/p>\n<ul class=\"homeiscobtsh\">\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/ISO_badge.svg\" alt=\"ISO badge\"><\/li>\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/halal_badge.svg\" alt=\"Halal certification badge\"><\/li>\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/kosher_badge.svg\" alt=\"Kosher certification\"><\/li>\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/HACCP_badge.svg\" alt=\"HACCP badge\"><\/li>\n<\/ul>"
+        }
+      },
+      "1605695639071": {
+        "type": "custom-html",
+        "settings": {
+          "subheading": "",
+          "title": "Featured In",
+          "html": "<ul class=\"homeiscobtsh alignjst\">\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/USA_Today_logo.svg\" alt=\"ISO badge\"><\/li>\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/FOX_logo.svg\" alt=\"Halal certification badge\"><\/li>\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/cnbc_logo.svg\" alt=\"Kosher certification\"><\/li>\n<li><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/5821\/5334\/t\/2\/assets\/CBS_Logo.svg\" alt=\"HACCP badge\"><\/li>\n<\/ul>"
+        }
+      },
+      "page-reviews-template": {
+        "type": "page-reviews-template",
+        "blocks": {
+          "f0f7f588-6f30-4e70-bd62-8b734fb253c0": {
+            "type": "video_url",
+            "settings": {
+              "video_url": "https:\/\/www.youtube.com\/watch?v=NpEaa2P7qZI"
+            }
+          },
+          "82b19439-95d8-4097-bcdc-d3963052fe70": {
+            "type": "video_url",
+            "settings": {
+              "video_url": "https:\/\/www.youtube.com\/watch?v=NpEaa2P7qZI"
+            }
+          },
+          "31ce69ba-60b7-4361-839c-24dff0933163": {
+            "type": "video_url",
+            "settings": {
+              "video_url": "https:\/\/www.youtube.com\/watch?v=NpEaa2P7qZI"
+            }
+          },
+          "8044499f-f990-4c43-a10c-208b99dc90bc": {
+            "type": "video_url",
+            "settings": {
+              "video_url": "https:\/\/www.youtube.com\/watch?v=NpEaa2P7qZI"
+            }
+          },
+          "2ec2f822-a65f-4485-b7b1-32d7acc2642d": {
+            "type": "video_url",
+            "settings": {
+              "video_url": "https:\/\/www.youtube.com\/watch?v=NpEaa2P7qZI"
+            }
+          },
+          "67b50d0b-0947-4d33-9cd5-e806bd2ab686": {
+            "type": "video_url",
+            "settings": {
+              "video_url": "https:\/\/www.youtube.com\/watch?v=NpEaa2P7qZI"
+            }
+          },
+          "de233e43-523a-49b6-bc22-e2d61a072a23": {
+            "type": "video_url",
+            "settings": {
+              "video_url": "https:\/\/www.youtube.com\/watch?v=NpEaa2P7qZI"
+            }
+          }
+        },
+        "block_order": [
+          "f0f7f588-6f30-4e70-bd62-8b734fb253c0",
+          "82b19439-95d8-4097-bcdc-d3963052fe70",
+          "31ce69ba-60b7-4361-839c-24dff0933163",
+          "8044499f-f990-4c43-a10c-208b99dc90bc",
+          "2ec2f822-a65f-4485-b7b1-32d7acc2642d",
+          "67b50d0b-0947-4d33-9cd5-e806bd2ab686",
+          "de233e43-523a-49b6-bc22-e2d61a072a23"
+        ],
+        "settings": {
+          "bannertext_heading": "Customer Reviews",
+          "banner_image": "shopify:\/\/shop_images\/breakfast-from-above.jpg",
+          "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      },
+      "recipes-singlepost": {
+        "type": "recipes-singlepost",
+        "settings": {
+          "show_article_image": true,
+          "show_date": false,
+          "show_category": false,
+          "show_author": false,
+          "show_share_buttons": false
+        }
+      },
+      "info-collaboration": {
+        "type": "info-collaboration",
+        "settings": {
+          "restaurant-name": "District One",
+          "restaurant-location": "Las Vegas",
+          "short-description": "Here at District One Kitchen and Bar in Las Vegas that Modern Pho' experience that you have been looking for, look no further. We are a highly acclaimed Kitchen & Bar Resturant. Looking for a nice evening out with a special someone or a family gathering, we have what you are looking for. Inventive Vietnamese & Asian fusion dishes & craft cocktails offered in a stylish, intimate space. Join us for the Pho'Lobster Soup!",
+          "wide-image": "shopify:\/\/shop_images\/Group_117_2.jpg"
+        }
+      },
+      "video-collaboration": {
+        "type": "video-collaboration",
+        "settings": {
+          "video_url": "https:\/\/youtu.be\/L7LftOrWXYg",
+          "hide_video": false
+        }
+      },
+      "gallery-collaboration": {
+        "type": "gallery-collaboration",
+        "blocks": {
+          "682c830a-ecbc-4bbd-a9f2-d05bb981c2c1": {
+            "type": "product",
+            "settings": {
+              "product-item": "thai-styled-tom-s-9-bowls"
+            }
+          },
+          "7454dc35-f466-45f0-b23d-edb544972b4e": {
+            "type": "product",
+            "settings": {
+              "product-item": "chicken-and-bamboo-shoot-vermicelli-glass-instant-noodle-bowl-pack-of-9-by-simply-food-mien-ga"
+            }
+          },
+          "a72bd18a-104c-4161-95ed-067bec245faa": {
+            "type": "product",
+            "settings": {
+              "product-item": "crab-vermicelli-glass-instant-noodle-bowl-pack-of-9-by-simply-food-mien-cua"
+            }
+          },
+          "4405de02-981d-48f8-8778-7f6ecf1e63b0": {
+            "type": "product",
+            "settings": {
+              "product-item": "hodl-noodle-pack"
+            }
+          },
+          "4457935a-66fb-4839-8d3e-1ebdb668e697": {
+            "type": "product",
+            "settings": {
+              "product-item": "hue-style-instant-rice-noodle-soup-pack-of-9"
+            }
+          }
+        },
+        "block_order": [
+          "682c830a-ecbc-4bbd-a9f2-d05bb981c2c1",
+          "7454dc35-f466-45f0-b23d-edb544972b4e",
+          "a72bd18a-104c-4161-95ed-067bec245faa",
+          "4405de02-981d-48f8-8778-7f6ecf1e63b0",
+          "4457935a-66fb-4839-8d3e-1ebdb668e697"
+        ],
+        "settings": {
+        }
+      },
+      "testimonial-collaboration": {
+        "type": "testimonial-collaboration",
+        "settings": {
+          "quote-author": "- Kathy L. Atlanta",
+          "quote-content": "We loved this place! The food packs a lot of flavor, generous portions; and priced right! I had a delicious pear cocktail that was sweet with a lovely spicy end note. A new favorite place!",
+          "hide_testimonial": false
+        }
+      },
+      "horizontal-gallery-collaboration": {
+        "type": "horizontal-gallery-collaboration",
+        "blocks": {
+          "f2f9a9ad-6a98-44af-acf3-7d23ed142b54": {
+            "type": "image",
+            "settings": {
+              "horizontal_image": "shopify:\/\/shop_images\/1C9A0006_1bea0e8d-37e9-4719-9d03-d2a7b13bd503.jpg"
+            }
+          },
+          "8318f0cc-f0cf-4410-9447-776afe3d3ee3": {
+            "type": "image",
+            "settings": {
+              "horizontal_image": "shopify:\/\/shop_images\/1C9A0015.jpg"
+            }
+          },
+          "12643f7a-2e55-45c8-8f4a-4e953139341c": {
+            "type": "image",
+            "settings": {
+              "horizontal_image": "shopify:\/\/shop_images\/1C9A0053.jpg"
+            }
+          },
+          "14b1619b-f5fb-41df-b42f-a8c1d66f5292": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "horizontal_image": "shopify:\/\/shop_images\/1C9A0073.jpg"
+            }
+          },
+          "27ae0a6e-c5ae-4af9-afd5-404f7573824d": {
+            "type": "image",
+            "settings": {
+              "horizontal_image": "shopify:\/\/shop_images\/1C9A0091.jpg"
+            }
+          },
+          "1d561978-56a7-48ed-bedc-486a79db3ada": {
+            "type": "image",
+            "settings": {
+              "horizontal_image": "shopify:\/\/shop_images\/1C9A0100.jpg"
+            }
+          },
+          "872cb1f9-3b33-45bc-8433-4ddc21cbb57b": {
+            "type": "image",
+            "settings": {
+              "horizontal_image": "shopify:\/\/shop_images\/1C9A0146.jpg"
+            }
+          },
+          "cd62e221-12ad-4d3d-93c5-1d28ce4c3437": {
+            "type": "image",
+            "settings": {
+              "horizontal_image": "shopify:\/\/shop_images\/1C9A9986.jpg"
+            }
+          },
+          "79762b16-241c-4aa4-b37b-47601f468cd4": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "horizontal_image": "shopify:\/\/shop_images\/1C9A9966.jpg"
+            }
+          },
+          "d0726d8e-627b-4d05-acba-6927046dd1f9": {
+            "type": "image",
+            "settings": {
+              "horizontal_image": "shopify:\/\/shop_images\/1C9A9958.jpg"
+            }
+          },
+          "de075c3d-4e5a-43f1-a64d-d6fc496cc494": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "horizontal_image": "shopify:\/\/shop_images\/1C9A0191.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "f2f9a9ad-6a98-44af-acf3-7d23ed142b54",
+          "8318f0cc-f0cf-4410-9447-776afe3d3ee3",
+          "12643f7a-2e55-45c8-8f4a-4e953139341c",
+          "14b1619b-f5fb-41df-b42f-a8c1d66f5292",
+          "27ae0a6e-c5ae-4af9-afd5-404f7573824d",
+          "1d561978-56a7-48ed-bedc-486a79db3ada",
+          "872cb1f9-3b33-45bc-8433-4ddc21cbb57b",
+          "cd62e221-12ad-4d3d-93c5-1d28ce4c3437",
+          "79762b16-241c-4aa4-b37b-47601f468cd4",
+          "d0726d8e-627b-4d05-acba-6927046dd1f9",
+          "de075c3d-4e5a-43f1-a64d-d6fc496cc494"
+        ],
+        "settings": {
+          "hide_horizontalgallery": false
+        }
+      },
+      "featured-dish-collaboration": {
+        "type": "featured-dish-collaboration",
+        "blocks": {
+          "b9ceff98-17a6-4e0f-8817-3cebecd99c5f": {
+            "type": "text",
+            "settings": {
+              "ingredient-item": "1 1\/2 cups powdered sugar"
+            }
+          },
+          "f5e2dee0-815e-41e1-94b2-d573fdb70562": {
+            "type": "text",
+            "settings": {
+              "ingredient-item": "1\/5 cup glucose"
+            }
+          },
+          "a6bb6483-34b8-41c6-9ab2-18dcabc9e397": {
+            "type": "text",
+            "settings": {
+              "ingredient-item": "1 2\/3 water"
+            }
+          },
+          "5abd9e60-3488-409c-be9b-9e84e8f18dd5": {
+            "type": "text",
+            "settings": {
+              "ingredient-item": "Butter for greasing"
+            }
+          },
+          "352d3e48-b216-491a-9a8c-b3ec10483bdf": {
+            "type": "text",
+            "settings": {
+              "ingredient-item": "5 egg whites"
+            }
+          },
+          "168fd7fd-0e02-48d5-a3a7-65a4f9b41680": {
+            "type": "text",
+            "settings": {
+              "ingredient-item": "1\/2 cup powdered sugar + a little extra for the circles"
+            }
+          },
+          "437527ff-bfd6-4e72-9bd5-bacfb64477d7": {
+            "type": "text",
+            "settings": {
+              "ingredient-item": "3 tbsp crème anglaise per blanc-manger"
+            }
+          }
+        },
+        "block_order": [
+          "b9ceff98-17a6-4e0f-8817-3cebecd99c5f",
+          "f5e2dee0-815e-41e1-94b2-d573fdb70562",
+          "a6bb6483-34b8-41c6-9ab2-18dcabc9e397",
+          "5abd9e60-3488-409c-be9b-9e84e8f18dd5",
+          "352d3e48-b216-491a-9a8c-b3ec10483bdf",
+          "168fd7fd-0e02-48d5-a3a7-65a4f9b41680",
+          "437527ff-bfd6-4e72-9bd5-bacfb64477d7"
+        ],
+        "settings": {
+          "recipe-image": "shopify:\/\/shop_images\/recipe-banner-100.jpg",
+          "serves": "8",
+          "time": "1hr",
+          "recipe-title": "Le Blanc A Manger",
+          "recipe-subtitle": "District One",
+          "product": "premium-spring-roll-rice-paper"
+        }
+      },
+      "step-recipe-collaboration": {
+        "type": "step-recipe-collaboration",
+        "blocks": {
+          "a0fea095-c2ba-4c59-8c3b-407930c2d660": {
+            "type": "text",
+            "settings": {
+              "step-title": "Step 01",
+              "step-subtitle": "Make the caramel",
+              "step-content": "<p>In a pan, mix the powdered sugar, glucose and water. Heat gently while stirring. Pour the caramel onto a silicone mat or sheet of baking paper and leave to cool.<\/p>"
+            }
+          },
+          "4a83906c-d4e2-467c-9211-76a09af986ad": {
+            "type": "text",
+            "settings": {
+              "step-title": "Step 02",
+              "step-subtitle": "Set the heat",
+              "step-content": "<p>Preheat the oven to 400°F.<\/p>"
+            }
+          },
+          "0cfdce46-3756-41b1-9e40-dbdb695d5614": {
+            "type": "text",
+            "settings": {
+              "step-title": "Step 03",
+              "step-subtitle": "Create the circles",
+              "step-content": "<p>When the caramel has set hard, grind it into a fine powder using a food processor or pestle and mortar. Use a small sieve to sift the powder into circular 5-6 cm diameter stencils on a lined baking tray. Place in the oven for a few seconds to melt the caramel into circles, remove and leave to cool. Reduce the oven temperature to 200°F.<\/p>"
+            }
+          },
+          "57d6fe07-bd4e-4a34-a3af-beca4069413a": {
+            "type": "text",
+            "settings": {
+              "step-title": "Step 04",
+              "step-subtitle": "Make the Blanc-Mangers",
+              "step-content": "<p>Grease eight circles of 5-6 cm in diameter with butter and sprinkle with icing sugar. Whisk the egg whites until they form stiff peaks, then add the icing sugar. Transfer into a piping bag and pipe the egg white mixture in the middle of circles, higher around the sides, to form a well in the centre. Carefully place 1 tbsp of crème anglaise in this well, cover with more egg white mix, and smooth over with a spatula.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "a0fea095-c2ba-4c59-8c3b-407930c2d660",
+          "4a83906c-d4e2-467c-9211-76a09af986ad",
+          "0cfdce46-3756-41b1-9e40-dbdb695d5614",
+          "57d6fe07-bd4e-4a34-a3af-beca4069413a"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "map": {
+        "type": "map",
+        "settings": {
+          "title": "District One",
+          "address": "<p>3400 South Jones Blvd. Suite#8 Las Vegas, NV 89146<\/p>",
+          "hours": "<p>Weekly from: 11AM - 10PM<br\/>Closed Tuesdays <\/p>",
+          "map_address": "3400 South Jones Blvd. Suite#8 Las Vegas, NV 89146",
+          "map_link_label": "Get directions",
+          "api_key": "",
+          "zoom": 14,
+          "map_style": "silver",
+          "image": "shopify:\/\/shop_images\/Capture654156156.png"
+        }
+      },
+      "other-collaborator": {
+        "type": "other-collaborator",
+        "blocks": {
+          "d571b5ba-c0b3-42bb-b9e3-a77c08f270c3": {
+            "type": "text",
+            "settings": {
+              "collaborator-title": "Restaurant 01",
+              "collaborator-url": "#",
+              "collaborator-img": "shopify:\/\/shop_images\/collaborator-100.jpg"
+            }
+          },
+          "5a42755f-3033-4261-a628-716daa9e8136": {
+            "type": "text",
+            "settings": {
+              "collaborator-title": "Restaurant 02",
+              "collaborator-url": "#",
+              "collaborator-img": "shopify:\/\/shop_images\/Rectangle_114.png"
+            }
+          },
+          "643910e3-be2d-4743-975c-4b736505718b": {
+            "type": "text",
+            "settings": {
+              "collaborator-title": "Restaurant 03",
+              "collaborator-url": "#",
+              "collaborator-img": "shopify:\/\/shop_images\/Rectangle_115.png"
+            }
+          },
+          "969c6e2d-dbe4-4c24-b8d5-6a6e788d71db": {
+            "type": "text",
+            "settings": {
+              "collaborator-title": "Restaurant 4",
+              "collaborator-url": "#",
+              "collaborator-img": "shopify:\/\/shop_images\/Rectangle_114.png"
+            }
+          }
+        },
+        "block_order": [
+          "d571b5ba-c0b3-42bb-b9e3-a77c08f270c3",
+          "5a42755f-3033-4261-a628-716daa9e8136",
+          "643910e3-be2d-4743-975c-4b736505718b",
+          "969c6e2d-dbe4-4c24-b8d5-6a6e788d71db"
+        ],
+        "settings": {
+        }
+      },
+      "text-with-image": {
+        "type": "text-with-image",
+        "settings": {
+          "subheading": "",
+          "title": "Simply Foods was established in 1960 with the motto, “Quality is our Brand and Responsibility”",
+          "image": "shopify:\/\/shop_images\/pho_1.png",
+          "image_position": "right",
+          "content": "<p>We are proud to be one of the largest food manufacturers specializing in premium vegetarian instant ramen and rice products which are both healthy and convenient to use. We also put emphasis on the quality of our spring roll paper, pho noodles, vermicelli and other products, so our customers know they are getting the best.<\/p>",
+          "link_text": "LEARN MORE",
+          "link_url": "shopify:\/\/pages\/about-us"
+        }
+      },
+      "full-text": {
+        "type": "full-text",
+        "settings": {
+        }
+      },
+      "french-landing-main": {
+        "type": "french-landing-main",
+        "settings": {
+        }
+      },
+      "raw-cta": {
+        "type": "raw-cta",
+        "settings": {
+          "subheading": "",
+          "title": "Simply Foods was established in 1960 with the motto, “Quality is our Brand and Responsibility”",
+          "image": "shopify:\/\/shop_images\/pho_1.png",
+          "image_position": "left",
+          "content": "<p>We are proud to be one of the largest food manufacturers specializing in premium vegetarian instant ramen and rice products which are both healthy and convenient to use. We also put emphasis on the quality of our spring roll paper, pho noodles, vermicelli and other products, so our customers know they are getting the best.<\/p>",
+          "link_text": "LEARN MORE",
+          "link_url": "shopify:\/\/pages\/about-us"
+        }
+      },
+      "quality-cta": {
+        "type": "quality-cta",
+        "settings": {
+          "subheading": "",
+          "title": "All of the raw materials used to make Simply Food’s pho noodles, spring roll paper, and vermicelli are rigorously tested and guaranteed to meet our high standards before being delivered to consumers.",
+          "image": "shopify:\/\/shop_images\/sf_vietnam_rice_fields_900x_3b815b8e-db10-41a4-bb69-2ee35b399f81.jpg",
+          "image_position": "right",
+          "content": "<p>We select suppliers for our fine vermicelli, spring roll paper, and other vegetarian ramen products who are committed to ensuring food safety, environmental responsibility, the health and social welfare of their workers, and product quality assurance. We take quality seriously and don’t include harmful colorants or additives in our pho, spring roll paper, or fine vermicelli. We carefully select, prepare, pack, and ship our products so they can be enjoyed by consumers all around the world.<\/p>",
+          "link_text": "LEARN MORE",
+          "link_url": "shopify:\/\/pages\/about-us"
+        }
+      },
+      "landing-products": {
+        "type": "landing-products",
+        "blocks": {
+          "c79f7bcf-0132-4f1a-b549-4740b30c23c9": {
+            "type": "collection",
+            "settings": {
+              "collection": "all",
+              "title": "Products",
+              "grid_items_count": 6,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "c79f7bcf-0132-4f1a-b549-4740b30c23c9"
+        ],
+        "settings": {
+          "title": "",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 3
+        }
+      },
+      "chef-collaboration": {
+        "type": "chef-collaboration",
+        "settings": {
+          "chef-image": "shopify:\/\/shop_images\/1C9A0014.jpg",
+          "chef-name": "KHAI VU",
+          "chef-bio": "<p>Chef Khai Vu came to the states at the young age of 11 and has taken to a professional path of cooking. Inspiration from his grandmother and the family business started by his father paved the way for Chef Khai to produce some of the most modern and high quality Vietnamese cuisine.<\/p><p>With over 20 years of experience in the hospitality business, Chef Khai Vu has opened many popular restaurants including: District One, Pho So 1, Viet Noodle Le Pho, and many more.<\/p>",
+          "hide_chefsection": false
+        }
+      },
+      "landing-contact": {
+        "type": "landing-contact",
+        "blocks": {
+          "landing-contact-0": {
+            "type": "text",
+            "settings": {
+              "title": "Your phone (optional)",
+              "use_long_text": false,
+              "is_required": false
+            }
+          }
+        },
+        "block_order": [
+          "landing-contact-0"
+        ],
+        "settings": {
+        }
+      },
+      "website-button-collaboration": {
+        "type": "website-button-collaboration",
+        "settings": {
+          "button-text": "District one website",
+          "button-url": "https:\/\/www.districtonelv.com\/"
+        }
+      },
+      "map-collaboration": {
+        "type": "map-collaboration",
+        "settings": {
+          "title": "District One",
+          "address": "<p>3400 South Jones Blvd. Suite#8<br\/>Las Vegas, NV 89146<\/p>",
+          "hours": "<p>Weekly from: 11AM - 10PM<br\/>Closed Tuesdays<\/p>",
+          "map_address": "3400 South Jones Blvd. Suite#8Las Vegas, NV 89146",
+          "map_link_label": "Get directions",
+          "api_key": "",
+          "zoom": 14,
+          "map_style": "silver",
+          "image": "shopify:\/\/shop_images\/Capture654156156.png",
+          "hide_mapsection": false
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "1599621611600",
+      "1599597190223",
+      "1599597452324",
+      "1599597374869",
+      "featured-collections",
+      "collection-list",
+      "featured-product",
+      "timeline",
+      "blog-posts",
+      "shop-the-look",
+      "1600193658370",
+      "1600193658371",
+      "1604139778287",
+      "1605695639071"
+    ]
+  },
+  "presets": {
+    "Allure": {
+      "heading_color": "#1c1b1b",
+      "text_color": "#1c1b1b",
+      "text_light_color": "#6a6a6a",
+      "link_color": "#6a6a6a",
+      "background": "#efefef",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#1c1b1b",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#1c1b1b",
+      "header_light_color": "#6a6a6a",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#1c1b1b",
+      "footer_text_color": "#6a6a6a",
+      "newsletter_popup_background": "#1c1b1b",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#1c1b1b",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#1c1b1b",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "montserrat_n5",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "nunito_sans_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": false,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#efefef",
+      "checkout_accent_color": "#1c1b1b",
+      "checkout_button_color": "#1c1b1b",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Couture": {
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "text_light_color": "#939393",
+      "link_color": "#323232",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#5c5c5c",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#5c5c5c",
+      "header_light_color": "#939393",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#5c5c5c",
+      "footer_text_color": "#939393",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#1c1b1b",
+      "secondary_elements_background": "#5c5c5c",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#5c5c5c",
+      "heading_font": "futura_n4",
+      "heading_size": "large",
+      "uppercase_heading": false,
+      "text_font": "century_gothic_n4",
+      "base_text_font_size": 15,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "left",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "small",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#323232",
+      "checkout_button_color": "#5c5c5c",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f3f3f3",
+            "text_color": "#5c5c5c",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "center",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Vogue": {
+      "heading_color": "#303030",
+      "text_color": "#303030",
+      "text_light_color": "#595959",
+      "link_color": "#000000",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#f5db8b",
+      "button_text_color": "#303030",
+      "header_background": "#ffffff",
+      "header_heading_color": "#303030",
+      "header_light_color": "#595959",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#303030",
+      "footer_text_color": "#595959",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#303030",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#303030",
+      "secondary_elements_background": "#fce7a8",
+      "secondary_elements_text_color": "#303030",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "futura_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "show_element_staggering": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#a17c5e",
+      "checkout_button_color": "#454545",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f1e4d8",
+            "text_color": "#343434",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    }
+  }
+}

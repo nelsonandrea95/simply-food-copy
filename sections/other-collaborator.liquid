@@ -1,0 +1,82 @@
+<section id="section-{{ section.id }}">
+  <div class="container">
+    <div class="smk-block-title">
+      <h2 class="smk-title">Other Collaborators</h2>
+    </div>
+    <div class="owl-carousel owl-theme collaborators collaborators-carousel">
+      {% for block in section.blocks %}
+      <div class="item">
+        <img src="{{ block.settings.collaborator-img | img_url: 'full', format: 'pjpg' }}" />
+        <h3>{{ block.settings.collaborator-title }}</h3>
+        <a href="{{ block.settings.collaborator-url }}" class="Button Button--primary">Discover</a>
+      </div>
+      {% endfor %}
+    </div>  
+  </div>
+</section>
+
+<style>
+  #section-{{ section.id }}{
+  	margin-top: 40px;
+  }
+  /*#section-{{ section.id }} .collaborators{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+  }*/
+  #section-{{ section.id }} .collaborators .item{
+  	text-align: center;
+  }
+  #section-{{ section.id }} .collaborators .item img{
+  	height: 370px;
+    border-radius: 30px;
+    objet-fit: cover;
+    margin: auto;
+  }
+  #section-{{ section.id }} .collaborators .item h3{
+    font-size: 17px;
+    font-family: var(--heading-font-family);
+  }
+  @media (max-width: 768px){
+  	#section-{{ section.id }} .collaborators{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 50px;
+    }
+    #section-{{ section.id }} .collaborators .item img{
+    	height: auto;
+    }
+  }
+</style>
+
+
+{% schema %}
+  {
+    "name": "Other Collaborator's",
+	"max_blocks" : 12,
+	"blocks": [
+      {
+        "name": "Collaborator",
+        "type": "text",
+        "settings": [
+          {
+            "type": "text",
+            "id": "collaborator-title",
+            "label": "Collaborator title"
+          },
+		  {
+            "type": "text",
+            "id": "collaborator-url",
+            "label": "Collaborator url"
+          },
+		  {
+            "type": "image_picker",
+            "id": "collaborator-img",
+            "label": "Collaborator image"
+          }
+        ]
+      }
+    ],
+    "settings": []
+  }
+{% endschema %}

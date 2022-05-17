@@ -1,0 +1,61 @@
+<div id="section-{{ section.id }}">
+    
+    {% for block in section.blocks %}
+ 		<div class="step-item">
+        	<h3>{{ block.settings.step-title }}</h3>
+    		<span>{{ block.settings.step-subtitle }}</span>
+     		<p>{{ block.settings.step-content }}</p>
+  		</div>
+    {% endfor %}
+      
+</div>
+
+<style>
+  #section-{{ section.id }}{
+  	padding: 30px;
+  }
+  .step-item h3{
+  	color: #E63C00;
+	font-size: 38px;
+    margin-bottom: 0px;
+  }
+  .step-item span{
+    color: #E63C00;
+  }
+</style>
+
+{% schema %}
+    {
+        "name": "Steps for making recipe",
+        "settings": [
+            {
+            "type": "text",
+            "id": "title",
+            "label": "Steps"
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Step",
+                "type": "text",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "step-title",
+                        "label": "Step Title"
+                    },
+                    {
+                        "type": "text",
+                        "id": "step-subtitle",
+                        "label": "Step Subtitle"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "step-content",
+                        "label": "Step content"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

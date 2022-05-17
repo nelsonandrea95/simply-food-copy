@@ -1,0 +1,25 @@
+
+<section id="section-{{ section.id }}">
+    <div class="container" style="text-align:center;">
+      <a href="{{ section.settings.button-url }}" class="Button Button--primary" target="_blank">{{ section.settings.button-text }}</a>
+    </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Website button",
+    "settings": [
+		{
+          "type": "text",
+          "id": "button-text",
+          "label": "Button text"
+        },
+        {
+          "type": "text",
+          "id": "button-url",
+          "label": "Button url"
+        }
+	]
+  }
+{% endschema %}

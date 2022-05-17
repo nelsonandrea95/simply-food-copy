@@ -1,0 +1,61 @@
+{% if section.settings.hide_horizontalgallery == false %}
+<section class="Section" id="section-{{ section.id }}">
+    <div class="container">
+      	<div class="smk-block-title">
+            <h2 class="smk-title">Dishes</h2>
+        </div>
+        <div class="row owl-carousel owl-theme horizontal-gallery">
+            {% for block in section.blocks %}
+          		{%- if block.settings.horizontal_image -%}
+                <a href="{{ block.settings.horizontal_image | img_url: 'full', format: 'pjpg' }}" class="item-gallery">
+                    <img src="{{ block.settings.horizontal_image | img_url: 'full', format: 'pjpg' }}" />
+                </a>
+          		{% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<style>
+  .item-gallery img {
+    object-fit: cover;
+    height: 360px;
+    border-radius: 30px;
+    transition: all 0.2s;
+  }
+  .item-gallery img:hover{
+    filter: grayscale(100%);
+  }
+</style>
+
+
+
+{% schema %}
+    {
+        "name": "horizontal-gallery",
+        "max_blocks": 11,
+        "blocks": [
+            {
+                "type": "image",
+                "name": "item-gallery",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "horizontal_image",
+                        "label": "Image"
+                    }
+                ]
+            }
+        ],
+        "settings": [
+            {
+              "type": "checkbox",
+              "id": "hide_horizontalgallery",
+              "label": "Hide section",
+              "default": false
+            }
+        ]
+
+    }
+{% endschema %}

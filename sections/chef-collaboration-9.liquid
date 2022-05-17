@@ -1,0 +1,96 @@
+{% if section.settings.hide_chefsection == false %}
+<section id="section-{{ section.id }}">
+    <div class="container">
+        <div class="chef-photo-container">
+            <img src="{{ section.settings.chef-image | img_url: 'full', format: 'pjpg' }}" class="chef-photo" />
+        </div>
+        <div class="chef-info-container">
+            <div class="smk-block-title">
+                <h2 class="smk-title">About the Chef</h2>
+            </div>
+            <h3 class="chef-name">{{ section.settings.chef-name | escape }}</h3>
+            <div>{{ section.settings.chef-bio }}</div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<style>
+    #section-{{ section.id }}{
+        margin-top: 50px;
+    }
+    #section-{{ section.id }} .container{
+        display: flex;
+      	justify-content: space-between;
+    }
+    #section-{{ section.id }} .container .chef-photo-container{
+        width: 45%;
+      	padding: 10px;
+      	display: flex;
+    }
+  	#section-{{ section.id }} .container .chef-info-container{
+        width: 50%;
+      	padding: 10px;
+    }
+    #section-{{ section.id }} .chef-photo{
+        border-radius: 30px;
+        object-fit: cover;
+    }
+  	#section-{{ section.id }} .smk-block-title{
+  		padding-bottom:0px;
+    }
+    #section-{{ section.id }} .smk-title{
+        text-align: center;
+    }
+    #section-{{ section.id }} .chef-name{
+        font-size: 25px;
+        text-align: center;
+        color: #CA330B;
+        margin-bottom: 20px;
+    }
+    @media (max-width: 768px){
+        #section-{{ section.id }} .container{
+            display: flex;
+            flex-direction: column;
+        }
+        #section-{{ section.id }} .container .chef-photo-container, 
+        #section-{{ section.id }} .container .chef-info-container{
+            width: 100%;
+            margin-bottom: 15px;
+          	padding:0px;
+        }
+     	#section-{{ section.id }} .chef-photo{
+          display: block;
+          margin: auto;
+        }
+    }
+</style>
+
+{% schema %}
+ {
+     "name": "Chef Information",
+     "settings" : [
+         {
+            "type": "image_picker",
+            "id": "chef-image",
+            "label": "Photo"
+         },
+         {
+            "type": "text",
+            "id": "chef-name",
+            "label": "Name"
+         },
+         {
+            "type": "richtext",
+            "id": "chef-bio",
+            "label": "Bio"
+         },
+		 {
+            "type": "checkbox",
+            "id": "hide_chefsection",
+            "label": "Hide section",
+            "default": false
+          }
+     ] 
+ }
+{% endschema %}

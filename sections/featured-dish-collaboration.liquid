@@ -1,0 +1,145 @@
+<div id="section-{{ section.id }}">
+  <img src="{{ section.settings.recipe-image | img_url: 'full', format: 'pjpg' }}" />
+  <div class="top-content">
+    <h2>{{ section.settings.recipe-title | escape }}</h2>
+    <p class="subheading">{{ section.settings.recipe-subtitle | escape }}</p>
+    <h3 class="title-made-with">Made with:</h3>
+    {% assign product_item = section.settings.product %}
+    <a href="{{ product_item.url }}" class="product">
+		<img src="{{ product_item.images[0] | product_img_url: 'medium' }}" />
+    	{{ product_item.title }}
+    </a>
+    <ul>
+      <li><img src="{{ 'icon-user.png' | asset_url }}" /> Serves: {{ section.settings.serves }}</li>
+      <li><img src="{{ 'icon-time.png' | asset_url }}" /> Preparation time: {{ section.settings.time }}</li>
+    </ul>
+  </div>
+  
+  <div class="ingredients">
+    <h3>Ingredients:</h3>
+    <ul>
+      {% for block in section.blocks %}
+      	<li>{{ block.settings.ingredient-item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<style>
+  #section-{{ section.id }} .top-content{
+  	width: 400px;
+    background-color: #fff;
+    margin: -90px auto 0 auto;
+    border-radius: 30px;
+    z-index: 1;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+  }
+  #section-{{ section.id }} .top-content h2{
+    font-size: 24px;
+    font-family: var(--heading-font-family);
+  }
+  #section-{{ section.id }} .top-content .subheading{
+    font-size: 24px;
+    font-family: var(--heading-font-family);
+    color: #CA330B;
+    font-size: 17px;
+  }
+  .title-made-with{
+    font-size: 24px;
+    font-family: var(--heading-font-family);
+    color: #CA330B;
+  }
+  .top-content ul{
+  	width: 80%;
+    margin: 30px auto;
+    text-align: left;
+  }
+  .top-content ul li{
+  	list-style: none;
+    padding: 5px;
+  }
+  .top-content ul li img{
+  	margin-left: 30px;
+  }
+  #section-{{ section.id }} .top-content .product{
+  	display: flex;
+	flex-direction: column;
+  }
+  #section-{{ section.id }} .ingredients{
+    color: #fff;
+    background: #CA330B;
+	border-radius: 30px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  #section-{{ section.id }} .ingredients h3{
+  	font-size: 24px;
+    font-family: var(--heading-font-family);
+  }
+  @media (max-width:768px){
+    #section-{{ section.id }} .top-content, #section-{{ section.id }} .ingredients{
+    	width: 97%;
+      	margin: auto;
+    }
+  }
+</style>
+
+{% schema %}
+    {
+        "name": "Add featured recipe",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "recipe-image",
+                "label": "Image of the recipe"
+            },
+            {
+                "type": "text",
+                "id": "serves",
+                "label": "Serves:"
+            },
+            {
+                "type": "text",
+                "id": "time",
+                "label": "Preparation time:"
+            },
+            {
+                "type": "text",
+                "id": "recipe-title",
+                "label": "Title"
+            },
+			{
+                "type": "text",
+                "id": "recipe-subtitle",
+                "label": "Subtitle"
+            },
+            {
+                "type": "product",
+                "id": "product",
+                "label": "Made with:"
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Ingredients",
+                "type": "text",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "ingredient-item",
+                        "label": "Item"
+                    }
+                ]
+            }
+        ]
+
+    }
+{% endschema %}

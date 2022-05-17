@@ -1,0 +1,98 @@
+{% capture pageId %}{{ page.id }}{% endcapture %}
+{%- for block in section.blocks -%}
+{%- if page.handle == block.settings.page_handle or page.id == block.settings.page_handle or pageId == block.settings.page_handle -%}
+    {%- include "smk_sections" -%}
+{%- endif -%}
+{%- endfor -%}
+  <div class="shopify-section smk-content smkrnkbja" data-smk-section-location="above">
+  <div class="nomargin container-indent sectionbigbanners1601066642377uny">
+    <div class="container-fluid" data-smk-section-type="smk_big_banners">
+      <div class="row no-gutter"><div class="col-sm-12 respimgsize blid16010666423771uny" id="section16010666423771uny">
+                  <div class="smk-promo-fullwidth PageHeader__Imageerr" style="background:url('{{page.metafields.MainImage.mainimage}}'); background-position:50% -130px;">
+
+                        
+                      
+					<div class="smk-description normal">
+                      <div class="smk-description-wrapper text-center">
+                        
+                        <div class="smk-title-large" style="color:#ffffff">{{ page.title }}</div>
+                        
+                        
+                      </div>
+                    </div></div></div></div>
+    </div>
+  </div>
+</div>
+<article class="Article my-recipespage">
+<div class="Container">
+ 
+
+  <div class=" Article__Body Rte ">
+    {{ page.content }}
+  </div>
+</div>
+  <div class="smk-content">
+  <div class="container">
+    <div class="Article__Content">
+ <div class="indtrucanddis  Grid Grid--m">
+        {% if page.metafields.Ingredient.ingredient != blank %}
+      	<div class="total-sview Grid__Cell 1/2--tablet 1/2--lap-and-up ingredientssec">
+          <div class="gallery">
+            <div class="big_preview">
+              {% assign count = 1 %}
+ 				<div class="embedu thumitemsact"> {{page.metafields.youtube.embed}} </div>
+              	{% for values in  page.metafields.recigallery.reciimages %}
+              <div class="embedu thumitems{% increment count %}"> 
+                <img src="{{values}}"> 
+              </div>
+              {% endfor %}
+            </div>
+           		<div class="thumitems">
+                  {% assign foo = 1 %}
+                  {% assign foop = 1 %}
+                   <div class="thumitemsin thumitemsact"> 
+                      <img class="thumitemsact" src="{{page.metafields.video.thumbnail}}">	  
+                  	</div>
+                    {% for value in  page.metafields.recigallery.reciimages %}
+                    <div class="thumitemsin thumitems{% increment foo %}"> 
+                      <img class="thumitems{% increment foop %}" src="{{value}}">	  
+                  	</div>
+                    {% endfor %}
+                 
+                
+            	</div>
+          </div>
+          <h3>Ingredients</h3>
+        	{{page.metafields.Ingredient.ingredient}}
+        </div>
+  	  {% endif %}       
+         {% if page.metafields.Instructions.instructions != blank %}
+      	<div class="total-sview Grid__Cell 1/2--tablet 1/2--lap-and-up instructionssec">
+        	<h3>Instructions</h3>
+          {{page.metafields.Instructions.instructions}}
+        </div>
+  	  {% endif %}       
+      </div>
+      </div>
+    </div>
+    </div>
+</article>
+<script>
+  $(document).ready(function(){
+  $('.thumitemsin img').height($('.thumitemsin').width());	
+    $('.big_preview .embedu').first().addClass('active');
+    $('.thumitems .thumitemsin').first().addClass('active');
+  
+    
+    $('.thumitemsin').click(function(){
+    var thiscl = $(this).find('img').attr('class');
+     // alert(thiscl);
+      $('.thumitemsin').removeClass('active');
+      $(this).addClass('active');
+      $('.embedu').removeClass('active');
+      $('.big_preview').find('.'+thiscl).addClass('active');
+    return false;
+    });
+    
+  });
+</script>

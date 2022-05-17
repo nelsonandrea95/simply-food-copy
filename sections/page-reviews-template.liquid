@@ -1,0 +1,121 @@
+<section class="Section Section--spacingNone" id="section-{{ section.id }}" data-section-type="reviews-list" data-section-id="{{ section.id }}">
+  
+  <div class="shopify-section smk-content" data-smk-section-location="above">
+    <div class="nomargin container-indent sectionbigbanners1601066642377uny">
+      <div class="container-fluid" data-smk-section-type="smk_big_banners">
+        <div class="row no-gutter">
+          <div class="col-sm-12 respimgsize blid16010666423771uny" id="section16010666423771uny">
+            <div class="smk-promo-fullwidth"  style="background-image:url('{{ section.settings.banner_image | img_url: 'x800' }}');">
+              <!--img class="lazyload" src="{{ section.settings.banner_image | img_url: 'x800' }}" data-src="{{ section.settings.banner_image | img_url: 'x800' }}" alt=""-->
+
+              <div class="smk-description normal">
+                <div class="smk-description-wrapper text-center">
+
+                  <div class="smk-title-large" style="color:#ffffff">
+                    {{ section.settings.bannertext_heading | escape }}
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Section Section--spacingNormal">
+    <div class="Container Container--extraNarrow">
+      {%- if section.settings.subheading != blank -%}
+        <header class="SectionHeader SectionHeader--center">
+        	<h2 class="SectionHeader__SubHeading Heading u-h1">{{ section.settings.subheading | escape }}</h2>
+        </header>
+      {%- endif -%}
+      <div class="Rte" style="text-align: center">{{- page.content -}}</div>
+    </div>
+  </div>
+  
+  
+  <div class="ReviewsListWrapper Container">
+    <div class="ReviewsList">
+      
+      {%- for block in section.blocks -%}
+        <div class="ReviewsListItem">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ block.settings.video_url.id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+  
+
+</section>
+
+{% style %}
+.ReviewsListWrapper {
+  margin: 0 auto;
+}
+.ReviewsList {
+  background: none;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(420px,1fr));
+  grid-column-gap: 34px;
+  grid-row-gap: 34px;
+
+}
+
+.ReviewsList iframe {
+	width: 100%;
+}
+
+@media (max-width: 880px) {
+  .ReviewsList {
+    grid-column-gap: 0;
+    grid-row-gap: 17px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .ReviewsList {
+    grid-template-columns: 1fr;
+  }
+}
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Reviews page",
+  "settings": [
+    {
+      "type": "text",
+      "id": "bannertext_heading",
+      "label": "Banner Heading",
+      "default": "Banner Heading"
+    },
+        {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Image",
+      "info": "1500 x 800px .jpg recommended"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub-heading"
+    }
+  ],
+  "blocks": [
+	{
+      "type": "video_url",
+      "name": "Video",
+      "settings": [
+		{
+          "id": "video_url",
+          "type": "video_url",
+          "label": "Video URL",
+          "accept": ["youtube"]
+		}
+	   ]
+	}
+  ]
+}
+{% endschema %}
